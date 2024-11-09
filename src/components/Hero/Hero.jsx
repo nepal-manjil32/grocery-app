@@ -1,14 +1,4 @@
 import React from 'react'
-<<<<<<< HEAD
-
-function Hero() {
-  return (
-    <div>Hero</div>
-  )
-}
-
-export default Hero
-=======
 import './Hero.css'
 import hero from '../../assets/hero.png'
 
@@ -32,4 +22,3 @@ const Hero = () => {
 }
 
 export default Hero
->>>>>>> 127c77d (new components added)
