@@ -1,0 +1,53 @@
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 1rem;
+}
+
+.hero-left{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    min-width: 900px;
+}
+
+.hero-left h1{
+    font-size: 4rem;
+    margin: 0;
+}
+
+.hero-left h2{
+    font-size: 4.5rem;
+    margin: 0;
+}
+
+.hero-left p{
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.hero-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 700px;
+}
+
+.hero-right img{
+    width: 800px;
+}
+
+.shop-btn{
+    padding: 10px;
+    background: #147442;
+    color: white;
+    padding: 7px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: 0;
+    font-size: 20px;
+    margin-top: 10px;
+}

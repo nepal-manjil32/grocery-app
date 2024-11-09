@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Hero from "./components/Hero/Hero";
@@ -9,11 +10,17 @@ import Orders from "./pages/Orders";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar/Navbar";
+=======
+import React from 'react'
+import Navbar from './components/Navbar/Navbar'
+import Hero from './components/Hero/Hero'
+>>>>>>> 127c77d (new components added)
 
 const App = () => {
   return (
     <div>
       <Navbar />
+<<<<<<< HEAD
       <Routes>
         <Route path="/hero" element={<Hero />} />
         <Route path="/menu" element={<Menu />} />
@@ -27,5 +34,11 @@ const App = () => {
     </div>
   );
 };
+=======
+      <Hero />
+    </>
+  )
+}
+>>>>>>> 127c77d (new components added)
 
 export default App;

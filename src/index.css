@@ -1,11 +1,24 @@
 .btn{
-  background-color: #147442;
+  background: #147442;
   color: white;
   padding: 7px;
   border-radius: 15px;
   cursor: pointer;
+  border: 0;
 }
 
 .a{
-  
+  text-decoration: none;
+}
+
+.hover-btn:hover{
+  background-color: #F28D00;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  padding: 1rem;
 }

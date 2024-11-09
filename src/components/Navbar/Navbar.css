@@ -9,7 +9,7 @@ nav{
     width: 100%;
     color: white;
     padding: 10px 10px;
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     left: 0;
     display: flex;
