@@ -31,10 +31,31 @@ nav ul li{
     font-size: 16px;
 }
 
-.darknav{
-    background: #c8710d;
-    transform: 0.5s;
+a{
+    cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ---- media queries -----*/
 @media (max-width: 1000px){
