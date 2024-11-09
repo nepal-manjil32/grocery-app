@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3rem 1rem;
+    margin: 4rem 1rem;
 }
 
 .hero-left{
@@ -11,7 +11,8 @@
     flex-direction: column;
     align-items: center;
     gap: 0;
-    min-width: 900px;
+    width: 50%;
+    margin-bottom: 6rem;
 }
 
 .hero-left h1{
@@ -31,13 +32,13 @@
 
 .hero-right{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    min-width: 700px;
+    width: 50%;
 }
 
 .hero-right img{
-    width: 800px;
+    width: 145%;
 }
 
 .shop-btn{
