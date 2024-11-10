@@ -51,7 +51,6 @@ A full-stack grocery application designed to make shopping convenient for users 
    cd ..
    npm start
    ```
-   - The frontend runs on `localhost:3000`, while the backend is on `localhost:5000`.
 
 ## Contributing
 Contributions are welcome! Please fork the repo and create a pull request for any new features or improvements.
