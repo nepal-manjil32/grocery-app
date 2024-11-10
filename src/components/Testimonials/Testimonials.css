@@ -35,8 +35,9 @@
 
 .slider ul li{
     list-style: none;
-    width: 50%;
-    padding: 20px;
+    width: 100%;
+    padding: 50px;
+    margin: 0;
 }
 
 .slide{
@@ -48,9 +49,9 @@
 }
 
 .slide img{
-    width: 65px;
+    width: 70px;
     border-radius: 50%;
-    margin-right: 10px;
+    margin-right: 5px;
     border: 4px solid #147442;
 }
 

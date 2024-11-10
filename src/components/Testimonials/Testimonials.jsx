@@ -32,7 +32,7 @@ const Testimonials = () => {
       <div className="slider">
           <ul ref={slider}>
             <li>
-              <div className="slide">
+              <div className="slide first-user">
                 <div className="user-info">
                   <img src={user_1} alt="" />
                   <div>

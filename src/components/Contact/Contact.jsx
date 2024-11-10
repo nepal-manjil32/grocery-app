@@ -1,9 +1,9 @@
 import React from 'react'
 import './Contact.css'
-import msg_icon from '../../assets/msg-icon.png'
-import mail_icon from '../../assets/mail-icon.png'
-import phone_icon from '../../assets/phone-icon.png'
-import location_icon from '../../assets/location-icon.png'
+import msg_icon from '../../assets/chat.png'
+import mail_icon from '../../assets/envelope.png'
+import phone_icon from '../../assets/phone.png'
+import location_icon from '../../assets/location.png'
 import white_arrow from '../../assets/white-arrow.png'
 
 const Contact = () => {
@@ -34,18 +34,20 @@ const Contact = () => {
 
   return (
     <div className='contact'>
-      <div className="contact-col">
+
+      <div className="contact-col col-left">
         <h3>Send us a message <img src={msg_icon} alt="" /></h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Architecto recusandae saepe quae in laboriosam officiis distinctio 
             laudantium dolorem quaerat voluptatibus dolor at quos molestias, 
             quod perspiciatis deserunt, vel error laborum.</p>
         <ul>
-        <li><img src={mail_icon} alt="" /> contact@huri.edu.np</li>
+        <li><img src={mail_icon} alt="" /> contact@hatbazar.np</li>
         <li><img src={phone_icon} alt="" /> +977-9876543212</li>
-        <li><img src={location_icon} alt="" /> Jhapa, Koshi Province, Nepal 57000</li>
+        <li><img src={location_icon} alt="" />Baluwatar, Kathmandu, Nepal</li>
         </ul>
       </div>
+
       <div className="contact-col">
         <form onSubmit={onSubmit}>
             <label for='name'>Your Name</label>
@@ -54,7 +56,7 @@ const Contact = () => {
             <input type="tel" name='phone' placeholder='Enter you phone number' required/>
             <label for='phone'>Write your message here</label>
             <textarea name="message" rows='10' placeholder='Enter you message' required></textarea>
-            <button type='submit' className='btn btn-dark'>Submit <img src={white_arrow} alt="" /></button>
+            <button type='submit' className='btn btn-dark submit'>Submit <img src={white_arrow} alt="" /></button>
         </form>
         <span>{result}</span>
       </div>
