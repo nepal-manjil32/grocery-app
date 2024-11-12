@@ -1,14 +1,36 @@
-import React from 'react'
-import App from './App'
-import './index.css'
-import ReactDOM from'react-dom/client'
-import { BrowserRouter } from 'react-router-dom'
-import AppAfterLog from './AppAfterLog'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+import AppAfterLog from './AppAfterLog';
+import './index.css';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { useState } from 'react';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
-    <App />
-    <AppAfterLog/>
-  </BrowserRouter>,
-)
-export default main
+const Main = () => {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+
+  const handleLogin = () => {
+    setIsLoggedIn(true);
+  };
+
+  const handleLogout = () => {
+    setIsLoggedIn(false);
+  };
+
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route
+          path="/"
+          element={!isLoggedIn ? <App onLogin={handleLogin} /> : <Navigate to="/after-login/menu" />}
+        />
+        <Route
+          path="/after-login/*"
+          element={isLoggedIn ? <AppAfterLog onLogout={handleLogout} /> : <Navigate to="/" />}
+        />
+      </Routes>
+    </BrowserRouter>
+  );
+};
+
+ReactDOM.createRoot(document.getElementById('root')).render(<Main />);
