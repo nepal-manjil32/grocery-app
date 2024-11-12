@@ -15,10 +15,21 @@
   background-color: #F28D00;
 }
 
-.container{
+/* .container{
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 1rem;
   padding: 1rem;
+} */
+
+.darknav{ 
+  background-color: #147442;
+  a{
+    color: white;
+  }
+  .btn{
+  color: #147442;
+  background-color: white;
+}
 }
