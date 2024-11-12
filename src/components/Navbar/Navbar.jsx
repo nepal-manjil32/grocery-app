@@ -9,7 +9,7 @@ const Navbar = ({ onLogin }) => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setSticky(window.scrollY > 500);
+      setSticky(window.scrollY > 170);
     };
     window.addEventListener('scroll', handleScroll);
 

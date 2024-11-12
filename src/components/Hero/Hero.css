@@ -52,6 +52,7 @@
     border: 0;
     font-size: 20px;
     margin-top: 10px;
+    transition: all 0.3s ease;
 }
 
 /* For Desktop */

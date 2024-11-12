@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import './AfterLogNav.css'
 
 const AfterLogNav = ({ onLogout }) => {
   const navigate = useNavigate();
