@@ -11,7 +11,7 @@ import Footer from "./components/Footer/Footer";
 const App = ({ onLogin }) => {
   return (
     <>
-      <Navbar />
+      <Navbar onLogin={onLogin}/>
       <Hero />
       <div>
         <Title subTitle="Testimonials" title="What Our Customers Say?" />
