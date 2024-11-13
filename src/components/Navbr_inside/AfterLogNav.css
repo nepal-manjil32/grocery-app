@@ -1,5 +1,37 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.afterlogin-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5rem;
+}
+
+.afterlogin-nav ul{
+    margin-top: 2rem;
+}
+
+.afterlogin-nav input{
+    padding: 2px;
+    width: 25rem;
+}
+
+.category-btn{
+    font-size: 12px;
+}
+
+.cart{
+    background-color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+.cart img{
+    width: 40px;
+}
+
+.cart-logout-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 10px;
 }
