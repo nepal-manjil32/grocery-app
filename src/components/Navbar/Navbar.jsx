@@ -4,20 +4,24 @@ import logo from '../../assets/logo.png';
 import white_logo from '../../assets/whitelogo.png';
 import { Link } from 'react-scroll';
 
-const Navbar = () => {
+const Navbar = ({ onLogin }) => {
   const [sticky, setSticky] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
+<<<<<<< HEAD
       setSticky(window.scrollY > 400);
       console.log("Sticky state:", sticky); 
+=======
+      setSticky(window.scrollY > 170);
+>>>>>>> b3f5f7cbd349e18ad389e2261c8ee13b9ff9c297
     };
     window.addEventListener('scroll', handleScroll);
 
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, [sticky]);  
+  }, []);
 
   return (
     <nav className={`${sticky ? 'darknav' : ''}`}>
@@ -26,13 +30,15 @@ const Navbar = () => {
         alt="Logo" 
         className="logo"
       />
-      {console.log("Logo source:", sticky ? white_logo : logo)}  {/* Check logo source */}
       <ul>
         <li><Link to='hero' smooth={true} offset={-1} duration={500}>Home</Link></li>
         <li><Link to='about' smooth={true} offset={-250} duration={500}>About</Link></li>
         <li><Link to='testimonials' smooth={true} offset={-300} duration={500}>Testimonials</Link></li>
         <li><Link to='contact' smooth={true} offset={-300} duration={500}>Contact</Link></li>
-        <li><Link to='#' smooth={true} offset={-300} duration={500} className='btn hover-btn'>Sign Up</Link></li>
+        <li><Link to='#' smooth={true} offset={-300} duration={500} className='btn hover-btn' onClick={onLogin}>Sign Up</Link></li>
+        {/* <li>
+          <button className='btn hover-btn' onClick={onLogin}>Sign In</button>
+        </li> */}
       </ul>
     </nav>
   );
