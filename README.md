@@ -1,6 +1,7 @@
 # Grocery App
 
 A full-stack grocery application designed to make shopping convenient for users in Nepal. This project currently focuses on the front-end development, and the backend database will be added in future updates.
+<img src='./sample-1.png'>
 
 ## Tech Stack
 - **Frontend**: React
