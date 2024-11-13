@@ -44,6 +44,13 @@ a{
     background-color: #F28D00;
     color: white;
   }
+}
 
-
+.products{
+  margin-top: 3rem;
+  margin-left: 3rem;
+  padding: 10px;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap; 
 }

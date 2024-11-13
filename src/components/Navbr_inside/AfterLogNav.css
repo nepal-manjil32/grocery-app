@@ -2,11 +2,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 5rem;
-}
-
-.afterlogin-nav ul{
-    margin-top: 2rem;
+    gap: 2rem;
+    position: static;
 }
 
 .afterlogin-nav input{
@@ -33,5 +30,4 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    margin-top: 10px;
 }

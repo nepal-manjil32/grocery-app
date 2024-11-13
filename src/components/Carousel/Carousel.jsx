@@ -7,7 +7,7 @@ import './Carousel.css'
 const Carousel = () => {
   return (
     <>
-     Hello
+     
     </>
   )
 }
