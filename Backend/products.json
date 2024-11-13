@@ -19,7 +19,7 @@
       "image": "../src/assets/waiwai.png",
       "category": "grains",
       "sizes": [
-        { "size": "41 g", "price": 10, "inStock": false },
+        { "size": "41 g", "price": 20, "inStock": false },
         { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
         { "size": "100 g", "price": 38, "inStock": true }
       ]
@@ -31,7 +31,7 @@
       "image": "../src/assets/waiwai.png",
       "category": "bakery",
       "sizes": [
-        { "size": "41 g", "price": 10, "inStock": false },
+        { "size": "41 g", "price": 400, "inStock": false },
         { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
         { "size": "100 g", "price": 38, "inStock": true }
       ]
@@ -43,7 +43,7 @@
       "image": "../src/assets/waiwai.png",
       "category": "household",
       "sizes": [
-        { "size": "41 g", "price": 10, "inStock": false },
+        { "size": "41 g", "price": 5, "inStock": false },
         { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
         { "size": "100 g", "price": 38, "inStock": true }
       ]
@@ -55,7 +55,7 @@
       "image": "../src/assets/waiwai.png",
       "category": "meat",
       "sizes": [
-        { "size": "41 g", "price": 10, "inStock": false },
+        { "size": "41 g", "price": 1000, "inStock": false },
         { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
         { "size": "100 g", "price": 38, "inStock": true }
       ]
@@ -187,7 +187,7 @@
       "image": "../src/assets/waiwai.png",
       "category": "Noodles",
       "sizes": [
-        { "size": "41 g", "price": 10, "inStock": false },
+        { "size": "41 g", "price": 12, "inStock": false },
         { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
         { "size": "100 g", "price": 38, "inStock": true }
       ]
@@ -199,7 +199,7 @@
       "image": "../src/assets/waiwai.png",
       "category": "vegetables",
       "sizes": [
-        { "size": "41 g", "price": 10, "inStock": false },
+        { "size": "41 g", "price": 500, "inStock": false },
         { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
         { "size": "100 g", "price": 38, "inStock": true }
       ]
@@ -211,7 +211,7 @@
       "image": "../src/assets/waiwai.png",
       "category": "vegetables",
       "sizes": [
-        { "size": "41 g", "price": 10, "inStock": false },
+        { "size": "41 g", "price": 5, "inStock": false },
         { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
         { "size": "100 g", "price": 38, "inStock": true }
       ]
@@ -223,7 +223,7 @@
       "image": "../src/assets/waiwai.png",
       "category": "Noodles",
       "sizes": [
-        { "size": "41 g", "price": 10, "inStock": false },
+        { "size": "41 g", "price": 1000, "inStock": false },
         { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
         { "size": "100 g", "price": 38, "inStock": true }
       ]
@@ -235,7 +235,7 @@
       "image": "../src/assets/waiwai.png",
       "category": "vegetables",
       "sizes": [
-        { "size": "41 g", "price": 10, "inStock": false },
+        { "size": "41 g", "price": 100, "inStock": false },
         { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
         { "size": "100 g", "price": 38, "inStock": true }
       ]
