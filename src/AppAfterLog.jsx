@@ -19,6 +19,7 @@ const AppAfterLog = ({ onLogout }) => {
         <Route path="/place-order" element={<PalceOrder />} />
         <Route path="/orders" element={<Orders />} />
       </Routes> */}
+      <Carousel/>
       <div>
       <Title subTitle="Winter" title="Seasonal Vegetables"/>
       <div className="products">
