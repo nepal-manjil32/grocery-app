@@ -1,17 +1,18 @@
 .carousel-six-images {
     position: relative;
     width: 100%;
-    height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* background: red; */
+    margin-top: 8rem;
 }
 
 .carousel-six-images img {
-    width: 100%;
-    height: 80vh;
-    /* border-radius: 2rem; */
-    margin-top: 1rem;
+    width: 80%;
+    height: 45vh;
+    border-radius: 100px;
+    box-shadow: 2px 2px 5px rgb(195, 195, 195);
 }
 
 .carousel-six-images .changing {
@@ -22,23 +23,23 @@
 }
 
 .carousel-six-images .two {
-    animation: animate-six-two 10s infinite forwards linear;
+    animation: animate-six-two 8s infinite forwards linear;
 }
 
 .carousel-six-images .three {
-    animation: animate-six-three 10s infinite forwards linear;
+    animation: animate-six-three 8s infinite forwards linear;
 }
 
 .carousel-six-images .four {
-    animation: animate-six-four 10s infinite forwards linear;
+    animation: animate-six-four 8s infinite forwards linear;
 }
 
 .carousel-six-images .five {
-    animation: animate-six-five 10s infinite forwards linear;
+    animation: animate-six-five 8s infinite forwards linear;
 }
 
 .carousel-six-images .six {
-    animation: animate-six-six 10s infinite forwards linear;
+    animation: animate-six-six 8s infinite forwards linear;
 }
 
 @keyframes animate-six-two {

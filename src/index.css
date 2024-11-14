@@ -20,6 +20,21 @@ a{
   transition: all 0.3s ease;
 }
 
+.white-btn{
+  background: #ffffff;
+  color: #147442;
+  padding: 7px;
+  border-radius: 15px;
+  cursor: pointer;
+  border: 0;
+  transition: all 0.3s ease;
+}
+
+.white-btn:hover{
+  background: #F28D00;
+  color: #ffffff;
+}
+
 .a{
   text-decoration: none;
 }

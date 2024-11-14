@@ -17,12 +17,12 @@ const AfterLogNav = ({ onLogout }) => {
   return (
     <nav className='afterlogin-nav'>
       <img 
-        src={logo} 
+        src={white_logo} 
         alt="Logo" 
         className="logo"
       />
       <div class="btn-group categories">
-          <button class="btn btn-secondary dropdown-toggle category-btn hover-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <button class="btn btn-secondary dropdown-toggle category-btn white-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
             Categories
           </button>
           <ul class="dropdown-menu">
@@ -40,7 +40,7 @@ const AfterLogNav = ({ onLogout }) => {
       </ul>
       <div className='cart-logout-div'>
         <button onClick={handleLogout} className='cart'><img src={cart} /></button>
-        <button onClick={handleLogout} className='btn hover-btn'>Logout</button>
+        <button onClick={handleLogout} className='white-btn hover-btn'>Logout</button>
       </div>
     </nav>
   );

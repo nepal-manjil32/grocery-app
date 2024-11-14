@@ -4,6 +4,13 @@
     align-items: center;
     gap: 2rem;
     position: static;
+    background-color: #147442;
+    position: fixed;
+    /* margin-bottom: 10rem; */
+}
+
+ul li a{
+    color: white;
 }
 
 .afterlogin-nav input{
@@ -12,13 +19,15 @@
 }
 
 .category-btn{
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .cart{
     background-color: white;
     border: 0;
     cursor: pointer;
+    border-radius: 60%;
+    width: 35%;
 }
 
 .cart img{

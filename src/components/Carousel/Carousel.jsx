@@ -1,7 +1,7 @@
 import React from 'react'
-import img_1 from '../../assets/1.jpg'
-import earth from '../../assets/earth.jpg'
-import space from '../../assets/Space.png'
+import img_1 from '../../images/carousel-1.png'
+import img_2 from '../../images/carousel-2.png'
+import img_3 from '../../images/carousel-3.jpg'
 import './Carousel.css'
 
 const Carousel = () => {
@@ -9,11 +9,8 @@ const Carousel = () => {
     <>
      <div class="carousel-six-images">
         <img src={img_1} class="one img-responsive"/>
-        <img src={earth} class="two changing img-responsive" />
-        <img src={space} class="three changing img-responsive" />
-        <img src={img_1} class="four changing img-responsive" />
-        <img src={earth} class="five changing img-responsive" />
-        <img src={space} class="six changing img-responsive" />
+        <img src={img_2} class="two changing img-responsive" />
+        <img src={img_3} class="three changing img-responsive" />
       </div>
     </>
   )
