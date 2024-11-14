@@ -5,6 +5,7 @@ import AppAfterLog from './AppAfterLog';
 import './index.css';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { useState } from 'react';
+import ShopContextProvider from './context/Shopcontext';
 
 const Main = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -19,16 +20,18 @@ const Main = () => {
 
   return (
     <BrowserRouter>
+    <ShopContextProvider>
       <Routes>
         <Route
           path="/"
-          element={!isLoggedIn ? <App onLogin={handleLogin} /> : <Navigate to="/after-login/menu" />}
+          element={!isLoggedIn ? <App onLogin={handleLogin} /> : <Navigate to="/AppAfterLog" />}
         />
         <Route
-          path="/after-login/*"
+          path="/AppAfterLog/*"
           element={isLoggedIn ? <AppAfterLog onLogout={handleLogout} /> : <Navigate to="/" />}
         />
       </Routes>
+    </ShopContextProvider>
     </BrowserRouter>
   );
 };

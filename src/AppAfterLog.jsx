@@ -8,19 +8,21 @@ import AfterLogNav from "./components/Navbr_inside/AfterLogNav";
 import Carousel from "./components/Carousel/Carousel";
 import Card from "./components/Card/Card";
 import Title from "./components/Title/Title";
+import Home from "./pages/Home";
 
 const AppAfterLog = ({ onLogout }) => {
   return (
     <>
-      <AfterLogNav onLogout={onLogout} />
-      {/* <Routes>
+      <Home onLogout={onLogout} />
+      <Routes>
+        {/* <Route path="/" element={<Home onLogout={onLogout} />}/> */}
         <Route path="/menu" element={<Menu />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/place-order" element={<PalceOrder />} />
         <Route path="/orders" element={<Orders />} />
-      </Routes> */}
-      <Carousel/>
-      <div>
+      </Routes>
+      {/* <Carousel/> */}
+      {/* <div>
       <Title subTitle="Winter" title="Seasonal Vegetables"/>
       <div className="products">
         <Card image = "https://www.bigbasket.com/media/uploads/p/m/30001186_14-fresho-lemon.jpg?tr=w-154,q-80" company="Himal Farm" name="Lemon" price="Rs 200"/>
@@ -34,7 +36,7 @@ const AppAfterLog = ({ onLogout }) => {
         <Card image = "https://www.bigbasket.com/media/uploads/p/m/30001186_14-fresho-lemon.jpg?tr=w-154,q-80" company="Himal Farm" name="Lemon" price="Rs 200"/>
         <Card image = "https://www.bigbasket.com/media/uploads/p/m/40233964_1-wai-wai-ready-to-eat-noodles-instant-chicken-flavour.jpg?tr=w-154,q-80" company="Chaudhary Group" name="Wai Wai" price="Rs 20"/>
       </div>
-      <Title subTitle="Snacks" title="Handiram Snacks"/>
+      <Title subTitle="Snacks" title="Haldiram Snacks"/>
       <div className="products">
         <Card image = "https://www.bigbasket.com/media/uploads/p/m/30001186_14-fresho-lemon.jpg?tr=w-154,q-80" company="Himal Farm" name="Lemon" price="Rs 200"/>
         <Card image = "https://www.bigbasket.com/media/uploads/p/m/40233964_1-wai-wai-ready-to-eat-noodles-instant-chicken-flavour.jpg?tr=w-154,q-80" company="Chaudhary Group" name="Wai Wai" price="Rs 20"/>
@@ -47,7 +49,7 @@ const AppAfterLog = ({ onLogout }) => {
         <Card image = "https://www.bigbasket.com/media/uploads/p/m/30001186_14-fresho-lemon.jpg?tr=w-154,q-80" company="Himal Farm" name="Lemon" price="Rs 200"/>
         <Card image = "https://www.bigbasket.com/media/uploads/p/m/40233964_1-wai-wai-ready-to-eat-noodles-instant-chicken-flavour.jpg?tr=w-154,q-80" company="Chaudhary Group" name="Wai Wai" price="Rs 20"/>
       </div>
-      </div>
+      </div> */}
     </>
   );
 };
