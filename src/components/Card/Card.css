@@ -3,6 +3,11 @@
     padding: 20px;
     background: rgb(255, 255, 255);
     box-shadow: 2px 2px 5px rgb(184, 183, 183);
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
 }
 
 p{
@@ -23,6 +28,8 @@ h4{
     background-color: white;
     color: #147442;
     transition: 0.2s;
+    padding: 5px;
+    width: 12rem;
 }
 
 .card button:hover{
