@@ -1,13 +1,19 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import PropTypes from 'prop-types';
 import { useNavigate } from 'react-router-dom';
 import './AfterLogNav.css'
 import logo from '../../assets/logo.png';
 import white_logo from '../../assets/whitelogo.png';
 import cart from '../../assets/cart.png';
+import { ShopContext } from '../../context/Shopcontext';
 
 const AfterLogNav = ({ onLogout }) => {
   const navigate = useNavigate();
+
+  const {setSearchQuery} = useContext(ShopContext);
+  const handleSearchChange = (e) => {
+    setSearchQuery(e.target.value);
+  }
 
   const handleLogout = () => {
     onLogout();
@@ -32,7 +38,7 @@ const AfterLogNav = ({ onLogout }) => {
           </ul>
       </div>
       <ul>
-        <li><input type="text" placeholder="Search.." className='search'></input></li>
+        <li><input type="text" placeholder="Search.." className='search' onChange={handleSearchChange}></input></li>
         <li><a href="/menu">Menu</a></li>
         <li><a href="/cart">Cart</a></li>
         <li><a href="/place-order">Place Order</a></li>
