@@ -32,9 +32,14 @@ const AfterLogNav = ({ onLogout }) => {
             Categories
           </button>
           <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Vegetables</a></li>
-          <li><a class="dropdown-item" href="#">Snacks</a></li>
-          <li><a class="dropdown-item" href="#">Drinks</a></li>
+          <li><a class="dropdown-item" href="#">Seasonal Fruits and Vegetables</a></li>
+          <li><a class="dropdown-item" href="#">Food, Grains, and Oil</a></li>
+          <li><a class="dropdown-item" href="#">Bakery Cakes Dairy</a></li>
+          <li><a class="dropdown-item" href="#">Cleaning and Household</a></li>
+          <li><a class="dropdown-item" href="#">Eggs, Fish, and Meat</a></li>
+          <li><a class="dropdown-item" href="#">Beverages</a></li>
+          <li><a class="dropdown-item" href="#">Puja Samagri Items</a></li>
+          <li></li>
           </ul>
       </div>
       <ul>
@@ -45,7 +50,7 @@ const AfterLogNav = ({ onLogout }) => {
         <li><a href="/orders">Orders</a></li>
       </ul>
       <div className='cart-logout-div'>
-        <button onClick={handleLogout} className='cart'><img src={cart} /></button>
+        <button className='cart'><img src={cart} /></button>
         <button onClick={handleLogout} className='white-btn hover-btn'>Logout</button>
       </div>
     </nav>

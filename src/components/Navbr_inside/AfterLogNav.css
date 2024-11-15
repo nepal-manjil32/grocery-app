@@ -42,5 +42,10 @@ ul li a{
 }
 
 .search{
-    border-radius: 5px;
+    border-radius: 1rem;
+    border: none;
+    text-indent: 0.5rem;
+}
+.search:focus{
+    outline: none;
 }

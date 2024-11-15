@@ -4,8 +4,8 @@ import { products } from "../assets/assets";
 export const ShopContext = createContext();
 
 const ShopContextProvider = (props) => {
-    const currency = "रु.";
     const [searchQuery, setSearchQuery] = useState('');
+    const currency = "रु.";
     const delivery_fee = 15;
 
     const filteredProducts = products.filter(product => 
