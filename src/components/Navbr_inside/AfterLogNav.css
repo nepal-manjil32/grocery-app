@@ -40,3 +40,7 @@ ul li a{
     align-items: center;
     gap: 2rem;
 }
+
+.search{
+    border-radius: 5px;
+}
