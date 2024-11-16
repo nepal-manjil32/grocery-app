@@ -56,7 +56,6 @@ const InsertProducts = () => {
   }
 
   const renderProductCard = (item) => {
-    // Get the selected size from the state or default to the first size
     const dropdownValue = selectedDropdown[item.id || item.name] || item.sizes[0]?.size;
   
     const productPrice = selectedPrices[item.id] || selectedPrices[item.name] || item.price;
@@ -67,14 +66,13 @@ const InsertProducts = () => {
         <p>{item.company}</p>
         <h5>{item.name}</h5>
         <div className="btn-group categories">
-          {/* Dropdown button */}
           <button
             className="btn btn-secondary dropdown-toggle category-btn white-btn"
             type="button"
             data-bs-toggle="dropdown"
             aria-expanded="false"
           >
-            {dropdownValue} {/* Display the selected size */}
+            {dropdownValue}
           </button>
           <ul className="dropdown-menu">
             <div className="size_menu">
