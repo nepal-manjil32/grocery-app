@@ -5,22 +5,23 @@ import back_icon from '../../assets/back-icon.png'
 import user_0 from '../../assets/manjil.png'
 import user_1 from '../../assets/prayash.jpg'
 import user_2 from '../../assets/jayash.png'
-import user_3 from '../../assets/sunit-pro.png'
-import user_4 from '../../assets/prashant-pro.jpg'
+import user_3 from '../../assets/sunit.png'
+import user_4 from '../../assets/prashant.png'
+import rating from '../../assets/rating.png'
 
 const Testimonials = () => {
   const slider = useRef(); // to access the user tag
   let transX = 0;
   const slideForward = () => {
     if(transX > -50){
-      transX -= 25;
+      transX -= 20;
     }
     slider.current.style.transform = `translateX(${transX}%)`
   }
 
   const slideBackward = () => {
     if(transX < 0){
-      transX += 25;
+      transX += 20;
     }
     slider.current.style.transform = `translateX(${transX}%)`
   }
@@ -39,12 +40,10 @@ const Testimonials = () => {
                   <div>
                     <h3>Manjil Nepal</h3>
                     <span>Bhadrapur, Jhapa</span>
+                    <div>⭐⭐⭐⭐⭐</div>
                   </div>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                  Odio tempore vitae ipsa mollitia porro nobis, veniam consequatur 
-                  aspernatur, repellat aliquid, ipsam ut accusamus aperiam quasi 
-                  error sequi architecto excepturi quia!</p>
+                <p>“This app has made shopping for Nepali groceries so convenient. Fresh products and great service!”</p>
               </div>
             </li>
             <li>
@@ -52,14 +51,12 @@ const Testimonials = () => {
                 <div className="user-info">
                   <img src={user_1} alt="" />
                   <div>
-                    <h3>Manjil Nepal</h3>
-                    <span>Bhadrapur, Jhapa</span>
+                    <h3>Prayash Adhikari</h3>
+                    <span>Sano Paila Haru, Bhaktapur</span>
+                    <div>⭐⭐⭐⭐⭐</div>
                   </div>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                  Odio tempore vitae ipsa mollitia porro nobis, veniam consequatur 
-                  aspernatur, repellat aliquid, ipsam ut accusamus aperiam quasi 
-                  error sequi architecto excepturi quia!</p>
+                <p>“Wide variety and easy-to-use interface. Highly recommend for anyone looking for authentic Nepali groceries!”</p>
               </div>
             </li>
             <li>
@@ -69,12 +66,10 @@ const Testimonials = () => {
                   <div>
                     <h3>Jayash Shrestha</h3>
                     <span>Sitapaila, Kathmandu</span>
+                    <div>⭐⭐⭐⭐⭐</div>
                   </div>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                  Odio tempore vitae ipsa mollitia porro nobis, veniam consequatur 
-                  aspernatur, repellat aliquid, ipsam ut accusamus aperiam quasi 
-                  error sequi architecto excepturi quia!</p>
+                <p>“Finally, an app that delivers Nepali essentials to my doorstep. Super fast delivery and great packaging!</p>
               </div>
             </li>
             <li>
@@ -84,12 +79,10 @@ const Testimonials = () => {
                   <div>
                     <h3>Sunit Soni</h3>
                     <span>Ghantaghar, Birjung</span>
+                    <div>⭐⭐⭐⭐⭐</div>
                   </div>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                  Odio tempore vitae ipsa mollitia porro nobis, veniam consequatur 
-                  aspernatur, repellat aliquid, ipsam ut accusamus aperiam quasi 
-                  error sequi architecto excepturi quia!</p>
+                <p>“The customer support team is amazing. They quickly resolved my issue and ensured my order arrived on time.”</p>
               </div>
             </li>
             <li>
@@ -99,12 +92,10 @@ const Testimonials = () => {
                   <div>
                     <h3>Prashant Dhimal</h3>
                     <span>Phusi Nagar, Hetauda</span>
+                    <div>⭐⭐⭐⭐⭐</div>
                   </div>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                  Odio tempore vitae ipsa mollitia porro nobis, veniam consequatur 
-                  aspernatur, repellat aliquid, ipsam ut accusamus aperiam quasi 
-                  error sequi architecto excepturi quia!</p>
+                <p>“Finally, an app that delivers Nepali essentials to my doorstep. Super fast delivery and great packaging!</p>
               </div>
             </li>
           </ul>

@@ -1,5 +1,5 @@
     .testimonials{
-    margin: 80px 50px;
+    margin: 80px 100px;
     padding: 0 80px;
     position: relative;
 }
@@ -27,7 +27,7 @@
 
 .slider ul{
     display: flex;
-    width: 200%;
+    width: 250%;
     overflow-x: hidden;
     transition: 0.5s;
     /* transform: translateX(-25%); */
@@ -36,13 +36,13 @@
 .slider ul li{
     list-style: none;
     width: 100%;
-    padding: 50px;
+    padding: 40px;
     margin: 0;
 }
 
 .slide{
     box-shadow: 1px 1px 10px grey;
-    padding: 40px;
+    padding: 45px;
     border-radius: 10px;
     color: #676767;
     line-height: 1.4;
@@ -63,5 +63,6 @@
 }
 
 .user-info h3{
+    font-size: 1.3rem;
     color: #147442;
 }

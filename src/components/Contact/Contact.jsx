@@ -37,10 +37,9 @@ const Contact = () => {
 
       <div className="contact-col col-left">
         <h3>Send us a message <img src={msg_icon} alt="" /></h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Architecto recusandae saepe quae in laboriosam officiis distinctio 
-            laudantium dolorem quaerat voluptatibus dolor at quos molestias, 
-            quod perspiciatis deserunt, vel error laborum.</p>
+        <p>Have questions or feedback? We'd love to hear from you!  
+          Whether it's about our products, your order, or anything else,  
+          we're here to help you shop for the freshest and best Nepali groceries with ease.</p>
         <ul>
         <li><img src={mail_icon} alt="" /> contact@hatbazar.np</li>
         <li><img src={phone_icon} alt="" /> +977-9876543212</li>
