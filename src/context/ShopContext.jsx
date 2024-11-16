@@ -1,32 +1,46 @@
-import { createContext, useState } from "react";
-import { products } from "../assets/assets";
+import { createContext, useEffect, useState } from "react";
+import axios from "axios";
 
 export const ShopContext = createContext();
 
 const ShopContextProvider = (props) => {
-    const [searchQuery, setSearchQuery] = useState('');
-    const currency = "रु.";
-    const delivery_fee = 15;
+  const [products, setProducts] = useState([]);
+  const [searchQuery, setSearchQuery] = useState("");
 
-    const filteredProducts = products.filter(product => 
-        product.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        product.company.toLowerCase().includes(searchQuery.toLowerCase())
-    );
+  const currency = "रु.";
+  const delivery_fee = 15;
 
-    const value = {
-        products,
-        filteredProducts,
-        searchQuery,
-        setSearchQuery,
-        currency,
-        delivery_fee,
-    };
+  useEffect(() => {
+    axios
+      .get("http://localhost:3000/products")
+      .then((res) => {
+        setProducts(res.data);
+      })
+      .catch(() => {
+        console.log("Error fetching products");
+      });
+  }, []);
 
-    return (
-        <ShopContext.Provider value={value}>
-            {props.children}
-        </ShopContext.Provider>
-    );
+  const filteredProducts = products.filter(
+    (product) =>
+      product.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      product.company.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
+  const value = {
+    products,
+    filteredProducts,
+    searchQuery,
+    setSearchQuery,
+    currency,
+    delivery_fee,
+  };
+
+  return (
+    <ShopContext.Provider value={value}>
+      {props.children}
+    </ShopContext.Provider>
+  );
 };
 
 export default ShopContextProvider;
