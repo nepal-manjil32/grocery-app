@@ -1,16 +1,16 @@
-import React, { useContext } from "react";
-import { ShopContext } from "../../context/Shopcontext";
-import Title from "../Title/Title";
-import "../Card/Card.css";
-import "../../index.css";
-import drinks from "../../assets/drinks.png";
-import vegetables from "../../assets/vegetables.png";
-import puja from "../../assets/puja.png";
-import bakery from "../../assets/bakery.png";
-import barbecue from "../../assets/barbecue.png";
-import household from "../../assets/household.png";
-import rice from "../../assets/rice.png";
-import search from "../../assets/search.png";
+import React, { useContext, useState } from 'react';
+import { ShopContext } from '../../context/Shopcontext';
+import Title from '../Title/Title';
+import '../Card/Card.css';
+import '../../index.css';
+import drinks from '../../assets/drinks.png';
+import vegetables from '../../assets/vegetables.png';
+import puja from '../../assets/puja.png';
+import bakery from '../../assets/bakery.png';
+import barbecue from '../../assets/barbecue.png';
+import household from '../../assets/household.png';
+import rice from '../../assets/rice.png';
+import search from '../../assets/search.png';
 
 const categoryLogos = {
   vegetables: vegetables,
@@ -25,8 +25,25 @@ const categoryLogos = {
 const InsertProducts = () => {
   const { filteredProducts, searchQuery, currency } = useContext(ShopContext);
 
-  let dynamicTitle = "Search Results";
-  let dynamicSubTitle = "Your search results";
+  const [selectedPrices, setSelectedPrices] = useState({});
+  const [selectedDropdown, setSelectedDropdown] = useState({});
+
+  const handleDropdown = (productId, size) => {
+    setSelectedDropdown((prev) => ({
+      ...prev,
+      [productId]: size,
+    }));
+  };
+
+  const handleSizeChange = (productId, price) => {
+    setSelectedPrices((prev) => ({
+      ...prev,
+      [productId]: price,
+    }));
+  };
+
+  let dynamicTitle = 'Search Results';
+  let dynamicSubTitle = 'Your search results';
   let dynamicLogo = search;
 
   if (searchQuery) {
@@ -34,22 +51,56 @@ const InsertProducts = () => {
     dynamicSubTitle = `Found ${filteredProducts.length} matching product(s)`;
     dynamicLogo =
       filteredProducts.length > 0
-        ? categoryLogos[filteredProducts[0].category] || puja
+        ? categoryLogos[filteredProducts[0]?.category] || puja
         : search;
   }
 
-  const renderProductCard = (item) => (
-    <div className="card" key={item.id || item.name}>
-      <img src={item.image} alt={item.name} />
-      <p>{item.company}</p>
-      <h5>{item.name}</h5>
-      <h4>
-        {currency}
-        {item.price}
-      </h4>
-      <button>Add</button>
-    </div>
-  );
+  const renderProductCard = (item) => {
+    // Get the selected size from the state or default to the first size
+    const dropdownValue = selectedDropdown[item.id || item.name] || item.sizes[0]?.size;
+  
+    const productPrice = selectedPrices[item.id] || selectedPrices[item.name] || item.price;
+  
+    return (
+      <div className="card" key={item.id || item.name}>
+        <img src={item.image} alt={item.name} />
+        <p>{item.company}</p>
+        <h5>{item.name}</h5>
+        <div className="btn-group categories">
+          {/* Dropdown button */}
+          <button
+            className="btn btn-secondary dropdown-toggle category-btn white-btn"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            {dropdownValue} {/* Display the selected size */}
+          </button>
+          <ul className="dropdown-menu">
+            <div className="size_menu">
+              {item.sizes?.map((sizeObj, index) => (
+                <button
+                  className="size_btn"
+                  key={index}
+                  onClick={() => {
+                    handleDropdown(item.id || item.name, sizeObj.size);
+                    handleSizeChange(item.id || item.name, sizeObj.price || item.price);
+                  }}
+                >
+                  {sizeObj.size}
+                </button>
+              ))}
+            </div>
+          </ul>
+        </div>
+        <h4>
+          {currency}
+          {productPrice}
+        </h4>
+        <button className="add_btn">Add</button>
+      </div>
+    );
+  };
 
   const renderProductsSection = (title, subTitle, logo, category) => {
     const categoryProducts = filteredProducts.filter(
@@ -92,46 +143,46 @@ const InsertProducts = () => {
   return (
     <div>
       {renderProductsSection(
-        "Seasonal Fruits and Vegetables",
-        "मौसमी फलफूल र तरकारीहरू",
+        'Seasonal Fruits and Vegetables',
+        'मौसमी फलफूल र तरकारीहरू',
         vegetables,
-        "vegetables"
+        'vegetables'
       )}
       {renderProductsSection(
-        "Food, Grains, and Oil",
-        "खाद्य, अन्न, र तेल",
+        'Food, Grains, and Oil',
+        'खाद्य, अन्न, र तेल',
         rice,
-        "grains"
+        'grains'
       )}
       {renderProductsSection(
-        "Bakery Cakes Dairy",
-        "बेकरी, केक, र डेरी उत्पादनहरू",
+        'Bakery Cakes Dairy',
+        'बेकरी, केक, र डेरी उत्पादनहरू',
         bakery,
-        "bakery"
+        'bakery'
       )}
       {renderProductsSection(
-        "Cleaning and Household",
-        "सफाइ र घरायसी सामग्रीहरू",
+        'Cleaning and Household',
+        'सफाइ र घरायसी सामग्रीहरू',
         household,
-        "household"
+        'household'
       )}
       {renderProductsSection(
-        "Eggs, Fish, and Meat",
-        "अण्डा, माछा, र मासु",
+        'Eggs, Fish, and Meat',
+        'अण्डा, माछा, र मासु',
         barbecue,
-        "meat"
+        'meat'
       )}
       {renderProductsSection(
-        "Beverages",
-        "पेय पदार्थहरू",
+        'Beverages',
+        'पेय पदार्थहरू',
         drinks,
-        "beverages"
+        'beverages'
       )}
       {renderProductsSection(
-        "Puja Samagri Items",
-        "पूजा सामग्री सामग्रीहरू",
+        'Puja Samagri Items',
+        'पूजा सामग्री सामग्रीहरू',
         puja,
-        "puja"
+        'puja'
       )}
     </div>
   );

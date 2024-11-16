@@ -1,5 +1,5 @@
 .card{
-    width: 15rem;
+    width: fit-content;
     padding: 20px;
     background: rgb(255, 255, 255);
     box-shadow: 2px 2px 5px rgb(184, 183, 183);
@@ -15,14 +15,14 @@ p{
 }
 
 h5{
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 h4{
     font-size: 1.5rem;
 }
 
-.card button{
+.card .add_btn{
     border-radius: 10px;
     border: 2px solid #147442;
     background-color: white;
@@ -32,8 +32,22 @@ h4{
     width: 12rem;
 }
 
-.card button:hover{
+.card .add_btn:hover{
     background-color: #147442;
     color: #ffffff;
     cursor: pointer;
 }
+
+.size_menu{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.size_btn{
+    width: fit-content;
+    border: none;
+    background: white;
+    border-radius: 1rem;
+}
+  

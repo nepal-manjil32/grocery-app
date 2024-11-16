@@ -1,185 +1,264 @@
 {
-    "products": [
-      {
-        "id": "1",
-        "company": "Chaudary Group",
-        "name": "Wai Wai",
-        "price": 15,
-        "image": ["../src/assets/waiwai.png"],
-        "category": "vegetables",
-        "sizes": ["70 g", "2 x 70 g", "6 x 70 g"]
-      },
-      {
-        "id": "2",
-        "company": "fresho!",
-        "name": "Lemon",
-        "price": 24,
-        "image": ["../src/assets/waiwai.png"],
-        "category": "grains",
-        "sizes": ["150 g", "1 kg", "2 kg"]
-      },
-      {
-        "id": "3",
-        "company": "fresho!",
-        "name": "Tomato",
-        "price": 18,
-        "image": ["../src/assets/waiwai.png"],
-        "category": "bakery",
-        "sizes": ["500 g", "1 kg", "2 x 1 kg"]
-      },
-      {
-        "id": "4",
-        "company": "Chaudary Group",
-        "name": "Wai Wai",
-        "price": 15,
-        "image": ["../src/assets/waiwai.png"],
-        "category": "household",
-        "sizes": ["70 g", "2 x 70 g", "6 x 70 g"]
-      },
-      {
-        "id": "5",
-        "company": "fresho!",
-        "name": "Lemon",
-        "price": 24,
-        "image": ["../src/assets/waiwai.png"],
-        "category": "meat",
-        "sizes": ["150 g", "1 kg", "2 kg"]
-      },
-      {
-        "id": "6",
-        "company": "fresho!",
-        "name": "Tomato",
-        "price": 18,
-        "image": ["../src/assets/waiwai.png"],
-        "category": "beverages",
-        "sizes": ["500 g", "1 kg", "2 x 1 kg"]
-      },
-      {
-        "id": "7",
-        "company": "Chaudary Group",
-        "name": "Wai Wai",
-        "price": 15,
-        "image": ["../src/assets/waiwai.png"],
-        "category": "puja",
-        "sizes": ["70 g", "2 x 70 g", "6 x 70 g"]
-      },
-      {
-        "id": "8",
-        "company": "fresho!",
-        "name": "Lemon",
-        "price": 24,
-        "image": ["../src/assets/waiwai.png"],
-        "category": "vegetables",
-        "sizes": ["150 g", "1 kg", "2 kg"]
-      },
-      {
-        "id": "9",
-        "company": "fresho!",
-        "name": "Tomato",
-        "price": 18,
-        "image": ["../src/assets/waiwai.png"],
-        "category": "vegetables",
-        "sizes": ["500 g", "1 kg", "2 x 1 kg"]
-      },
-      {
-        "id": "10",
-        "company": "Chaudary Group",
-        "name": "Wai Wai",
-        "price": 15,
-        "image": ["../src/assets/waiwai.png"],
-        "category": "Noodels",
-        "sizes": ["70 g", "2 x 70 g", "6 x 70 g"]
-      },
-      {
-        "id": "11",
-        "company": "fresho!",
-        "name": "Lemon",
-        "price": 24,
-        "image": ["../src/assets/waiwai.png"],
-        "category": "vegetables",
-        "sizes": ["150 g", "1 kg", "2 kg"]
-      },
-      {
-        "id": "12",
-        "company": "fresho!",
-        "name": "Tomato",
-        "price": 18,
-        "image": ["../src/assets/waiwai.png"],
-        "category": "vegetables",
-        "sizes": ["500 g", "1 kg", "2 x 1 kg"]
-      },
-      {
-        "id": "13",
-        "company": "Chaudary Group",
-        "name": "Wai Wai",
-        "price": 15,
-        "image": ["../src/assets/waiwai.png"],
-        "category": "Noodels",
-        "sizes": ["70 g", "2 x 70 g", "6 x 70 g"]
-      },
-      {
-        "id": "14",
-        "company": "fresho!",
-        "name": "Lemon",
-        "price": 24,
-        "image": ["../src/assets/waiwai.png"],
-        "category": "vegetables",
-        "sizes": ["150 g", "1 kg", "2 kg"]
-      },
-      {
-        "id": "15",
-        "company": "fresho!",
-        "name": "Tomato",
-        "price": 18,
-        "image": ["../src/assets/waiwai.png"],
-        "category": "vegetables",
-        "sizes": ["500 g", "1 kg", "2 x 1 kg"]
-      },
-      {
-        "id": "16",
-        "company": "Chaudary Group",
-        "name": "Wai Wai",
-        "price": 15,
-        "image": ["../src/assets/waiwai.png"],
-        "category": "Noodels",
-        "sizes": ["70 g", "2 x 70 g", "6 x 70 g"]
-      },
-      {
-        "id": "17",
-        "company": "fresho!",
-        "name": "Lemon",
-        "price": 24,
-        "image": ["../src/assets/waiwai.png"],
-        "category": "vegetables",
-        "sizes": ["150 g", "1 kg", "2 kg"]
-      },
-      {
-        "id": "18",
-        "company": "fresho!",
-        "name": "Tomato",
-        "price": 18,
-        "image": ["../src/assets/waiwai.png"],
-        "category": "vegetables",
-        "sizes": ["500 g", "1 kg", "2 x 1 kg"]
-      },
-      {
-        "id": "19",
-        "company": "Chaudary Group",
-        "name": "Wai Wai",
-        "price": 15,
-        "image": ["../src/assets/waiwai.png"],
-        "category": "Noodels",
-        "sizes": ["70 g", "2 x 70 g", "6 x 70 g"]
-      },
-      {
-        "id": "20",
-        "company": "fresho!",
-        "name": "Lemon",
-        "price": 24,
-        "image": ["../src/assets/waiwai.png"],
-        "category": "vegetables",
-        "sizes": ["150 g", "1 kg", "2 kg"]
-      }
-    ]
-  }
-  
+  "products": [
+    {
+      "id": 1,
+      "name": "Sunit",
+      "image": "../src/assets/waiwai.png",
+      "company": "Company Name",
+      "price": 38,
+      "sizes": [
+        { "size": "41 g", "price": 10, "inStock": false },
+        { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
+        { "size": "100 g", "price": 38, "inStock": true }
+      ],
+      "category":"grains"
+    },
+    {
+      "id": 2,
+      "company": "fresho!",
+      "name": "Lemon",
+      "price": 24,
+      "image": "../src/assets/waiwai.png",
+      "category": "grains",
+      "sizes": [
+        { "size": "41 g", "price": 10, "inStock": false },
+        { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
+        { "size": "100 g", "price": 38, "inStock": true }
+      ]
+    },
+    {
+      "id": 3,
+      "company": "fresho!",
+      "name": "Tomato",
+      "price": 18,
+      "image": "../src/assets/waiwai.png",
+      "category": "bakery",
+      "sizes": [
+        { "size": "41 g", "price": 10, "inStock": false },
+        { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
+        { "size": "100 g", "price": 38, "inStock": true }
+      ]
+    },
+    {
+      "id": 4,
+      "company": "Chaudary Group",
+      "name": "Wai Wai",
+      "price": 15,
+      "image": "../src/assets/waiwai.png",
+      "category": "household",
+      "sizes": [
+        { "size": "41 g", "price": 10, "inStock": false },
+        { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
+        { "size": "100 g", "price": 38, "inStock": true }
+      ]
+    },
+    {
+      "id": 5,
+      "company": "fresho!",
+      "name": "Lemon",
+      "price": 24,
+      "image": "../src/assets/waiwai.png",
+      "category": "meat",
+      "sizes": [
+        { "size": "41 g", "price": 10, "inStock": false },
+        { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
+        { "size": "100 g", "price": 38, "inStock": true }
+      ]
+    },
+    {
+      "id": 6,
+      "company": "fresho!",
+      "name": "Tomato",
+      "price": 18,
+      "image": "../src/assets/waiwai.png",
+      "category": "beverages",
+      "sizes": [
+        { "size": "41 g", "price": 10, "inStock": false },
+        { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
+        { "size": "100 g", "price": 38, "inStock": true }
+      ]
+    },
+    {
+      "id": 7,
+      "company": "Chaudary Group",
+      "name": "Wai Wai",
+      "price": 15,
+      "image": "../src/assets/waiwai.png",
+      "category": "puja",
+      "sizes": [
+        { "size": "41 g", "price": 10, "inStock": false },
+        { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
+        { "size": "100 g", "price": 38, "inStock": true }
+      ]
+    },
+    {
+      "id": 8,
+      "company": "fresho!",
+      "name": "Lemon",
+      "price": 24,
+      "image": "../src/assets/waiwai.png",
+      "category": "vegetables",
+      "sizes": [
+        { "size": "41 g", "price": 10, "inStock": false },
+        { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
+        { "size": "100 g", "price": 38, "inStock": true }
+      ]
+    },
+    {
+      "id": 9,
+      "company": "fresho!",
+      "name": "Tomato",
+      "price": 18,
+      "image": "../src/assets/waiwai.png",
+      "category": "vegetables",
+      "sizes": [
+        { "size": "41 g", "price": 10, "inStock": false },
+        { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
+        { "size": "100 g", "price": 38, "inStock": true }
+      ]
+    },
+    {
+      "id": 10,
+      "company": "Chaudary Group",
+      "name": "Wai Wai",
+      "price": 15,
+      "image": "../src/assets/waiwai.png",
+      "category": "Noodles",
+      "sizes": [
+        { "size": "41 g", "price": 10, "inStock": false },
+        { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
+        { "size": "100 g", "price": 38, "inStock": true }
+      ]
+    },
+    {
+      "id": 11,
+      "company": "fresho!",
+      "name": "Lemon",
+      "price": 24,
+      "image": "../src/assets/waiwai.png",
+      "category": "vegetables",
+      "sizes": [
+        { "size": "41 g", "price": 10, "inStock": false },
+        { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
+        { "size": "100 g", "price": 38, "inStock": true }
+      ]
+    },
+    {
+      "id": 12,
+      "company": "fresho!",
+      "name": "Tomato",
+      "price": 18,
+      "image": "../src/assets/waiwai.png",
+      "category": "vegetables",
+      "sizes": [
+        { "size": "41 g", "price": 10, "inStock": false },
+        { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
+        { "size": "100 g", "price": 38, "inStock": true }
+      ]
+    },
+    {
+      "id": 13,
+      "company": "Chaudary Group",
+      "name": "Wai Wai",
+      "price": 15,
+      "image": "../src/assets/waiwai.png",
+      "category": "Noodles",
+      "sizes": [
+        { "size": "41 g", "price": 10, "inStock": false },
+        { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
+        { "size": "100 g", "price": 38, "inStock": true }
+      ]
+    },
+    {
+      "id": 14,
+      "company": "fresho!",
+      "name": "Lemon",
+      "price": 24,
+      "image": "../src/assets/waiwai.png",
+      "category": "vegetables",
+      "sizes": [
+        { "size": "41 g", "price": 10, "inStock": false },
+        { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
+        { "size": "100 g", "price": 38, "inStock": true }
+      ]
+    },
+    {
+      "id": 15,
+      "company": "fresho!",
+      "name": "Tomato",
+      "price": 18,
+      "image": "../src/assets/waiwai.png",
+      "category": "vegetables",
+      "sizes": [
+        { "size": "41 g", "price": 10, "inStock": false },
+        { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
+        { "size": "100 g", "price": 38, "inStock": true }
+      ]
+    },
+    {
+      "id": 16,
+      "company": "Chaudary Group",
+      "name": "Wai Wai",
+      "price": 15,
+      "image": "../src/assets/waiwai.png",
+      "category": "Noodles",
+      "sizes": [
+        { "size": "41 g", "price": 10, "inStock": false },
+        { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
+        { "size": "100 g", "price": 38, "inStock": true }
+      ]
+    },
+    {
+      "id": 17,
+      "company": "fresho!",
+      "name": "Lemon",
+      "price": 24,
+      "image": "../src/assets/waiwai.png",
+      "category": "vegetables",
+      "sizes": [
+        { "size": "41 g", "price": 10, "inStock": false },
+        { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
+        { "size": "100 g", "price": 38, "inStock": true }
+      ]
+    },
+    {
+      "id": 18,
+      "company": "fresho!",
+      "name": "Tomato",
+      "price": 18,
+      "image": "../src/assets/waiwai.png",
+      "category": "vegetables",
+      "sizes": [
+        { "size": "41 g", "price": 10, "inStock": false },
+        { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
+        { "size": "100 g", "price": 38, "inStock": true }
+      ]
+    },
+    {
+      "id": 19,
+      "company": "Chaudary Group",
+      "name": "Wai Wai",
+      "price": 15,
+      "image": "../src/assets/waiwai.png",
+      "category": "Noodles",
+      "sizes": [
+        { "size": "41 g", "price": 10, "inStock": false },
+        { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
+        { "size": "100 g", "price": 38, "inStock": true }
+      ]
+    },
+    {
+      "id": 20,
+      "company": "fresho!",
+      "name": "Lemon",
+      "price": 24,
+      "image": "../src/assets/waiwai.png",
+      "category": "vegetables",
+      "sizes": [
+        { "size": "41 g", "price": 10, "inStock": false },
+        { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
+        { "size": "100 g", "price": 38, "inStock": true }
+      ]
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import { ShopContext } from '../../context/Shopcontext';
 import Title from '../Title/Title';
 import '../Card/Card.css';
@@ -10,7 +10,7 @@ import bakery from '../../assets/bakery.png';
 import barbecue from '../../assets/barbecue.png';
 import household from '../../assets/household.png';
 import rice from '../../assets/rice.png';
-import search from '../../assets/search.png'
+import search from '../../assets/search.png';
 
 const categoryLogos = {
   vegetables: vegetables,
@@ -25,31 +25,87 @@ const categoryLogos = {
 const InsertProducts = () => {
   const { filteredProducts, searchQuery, currency } = useContext(ShopContext);
 
+  const [selectedPrices, setSelectedPrices] = useState({});
+  const [selectedDropdown, setSelectedDropdown] = useState({});
+
+  const handleDropdown = (productId, size) => {
+    setSelectedDropdown((prev) => ({
+      ...prev,
+      [productId]: size,
+    }));
+  };
+
+  const handleSizeChange = (productId, price) => {
+    setSelectedPrices((prev) => ({
+      ...prev,
+      [productId]: price,
+    }));
+  };
+
   let dynamicTitle = 'Search Results';
   let dynamicSubTitle = 'Your search results';
-  let dynamicLogo = search; 
+  let dynamicLogo = search;
 
   if (searchQuery) {
     dynamicTitle = `Results for "${searchQuery}"`;
     dynamicSubTitle = `Found ${filteredProducts.length} matching product(s)`;
     dynamicLogo =
       filteredProducts.length > 0
-        ? categoryLogos[filteredProducts[0].category] || puja 
+        ? categoryLogos[filteredProducts[0]?.category] || puja
         : search;
   }
 
-  const renderProductCard = (item) => (
-    <div className="card" key={item.id || item.name}>
-      <img src={item.image} alt={item.name} />
-      <p>{item.company}</p>
-      <h5>{item.name}</h5>
-      <h4>{currency}{item.price}</h4>
-      <button>Add</button>
-    </div>
-  );
+  const renderProductCard = (item) => {
+    // Get the selected size from the state or default to the first size
+    const dropdownValue = selectedDropdown[item.id || item.name] || item.sizes[0]?.size;
+  
+    const productPrice = selectedPrices[item.id] || selectedPrices[item.name] || item.price;
+  
+    return (
+      <div className="card" key={item.id || item.name}>
+        <img src={item.image} alt={item.name} />
+        <p>{item.company}</p>
+        <h5>{item.name}</h5>
+        <div className="btn-group categories">
+          {/* Dropdown button */}
+          <button
+            className="btn btn-secondary dropdown-toggle category-btn white-btn"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            {dropdownValue} {/* Display the selected size */}
+          </button>
+          <ul className="dropdown-menu">
+            <div className="size_menu">
+              {item.sizes?.map((sizeObj, index) => (
+                <button
+                  className="size_btn"
+                  key={index}
+                  onClick={() => {
+                    handleDropdown(item.id || item.name, sizeObj.size);
+                    handleSizeChange(item.id || item.name, sizeObj.price || item.price);
+                  }}
+                >
+                  {sizeObj.size}
+                </button>
+              ))}
+            </div>
+          </ul>
+        </div>
+        <h4>
+          {currency}
+          {productPrice}
+        </h4>
+        <button className="add_btn">Add</button>
+      </div>
+    );
+  };
 
   const renderProductsSection = (title, subTitle, logo, category) => {
-    const categoryProducts = filteredProducts.filter((item) => item.category === category);
+    const categoryProducts = filteredProducts.filter(
+      (item) => item.category === category
+    );
 
     return (
       <div key={category}>
@@ -68,7 +124,11 @@ const InsertProducts = () => {
   if (searchQuery) {
     return (
       <div>
-        <Title subTitle={dynamicSubTitle} title={dynamicTitle} logo={dynamicLogo} />
+        <Title
+          subTitle={dynamicSubTitle}
+          title={dynamicTitle}
+          logo={dynamicLogo}
+        />
         <div className="products">
           {filteredProducts.length > 0 ? (
             filteredProducts.map(renderProductCard)
