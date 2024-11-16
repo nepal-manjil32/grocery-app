@@ -1,11 +1,11 @@
-.carousel-six-images {
+.bottom-carousel{
     position: relative;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background: red; */
-    margin-top: 10rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
 }
 
 .carousel-six-images img {
@@ -18,8 +18,6 @@
 .carousel-six-images .changing {
     position: absolute;
     opacity: 0;
-    /* top: 0;
-    left: 0; */
 }
 
 .carousel-six-images .two {

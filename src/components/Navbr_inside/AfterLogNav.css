@@ -6,7 +6,6 @@
     position: static;
     background-color: #147442;
     position: fixed;
-    /* margin-bottom: 10rem; */
 }
 
 ul li a{
@@ -26,12 +25,11 @@ ul li a{
     background-color: white;
     border: 0;
     cursor: pointer;
-    border-radius: 60%;
-    width: 35%;
+    border-radius: 50%;
 }
 
 .cart img{
-    width: 40px;
+    width: 20px;
 }
 
 .cart-logout-div{

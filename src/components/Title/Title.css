@@ -20,8 +20,10 @@
 
 .title p{
     color: #147442;
+    font-size: 1.5rem;
 }
 
 img{
+    margin-bottom: 1rem;
     width: 90px;
 }
