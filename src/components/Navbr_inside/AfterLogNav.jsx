@@ -1,13 +1,19 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import PropTypes from 'prop-types';
 import { useNavigate } from 'react-router-dom';
 import './AfterLogNav.css'
 import logo from '../../assets/logo.png';
 import white_logo from '../../assets/whitelogo.png';
 import cart from '../../assets/cart.png';
+import { ShopContext } from '../../context/Shopcontext';
 
 const AfterLogNav = ({ onLogout }) => {
   const navigate = useNavigate();
+
+  const {setSearchQuery} = useContext(ShopContext);
+  const handleSearchChange = (e) => {
+    setSearchQuery(e.target.value);
+  }
 
   const handleLogout = () => {
     onLogout();
@@ -26,20 +32,25 @@ const AfterLogNav = ({ onLogout }) => {
             Categories
           </button>
           <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Vegetables</a></li>
-          <li><a class="dropdown-item" href="#">Snacks</a></li>
-          <li><a class="dropdown-item" href="#">Drinks</a></li>
+          <li><a class="dropdown-item" href="#">Seasonal Fruits and Vegetables</a></li>
+          <li><a class="dropdown-item" href="#">Food, Grains, and Oil</a></li>
+          <li><a class="dropdown-item" href="#">Bakery Cakes Dairy</a></li>
+          <li><a class="dropdown-item" href="#">Cleaning and Household</a></li>
+          <li><a class="dropdown-item" href="#">Eggs, Fish, and Meat</a></li>
+          <li><a class="dropdown-item" href="#">Beverages</a></li>
+          <li><a class="dropdown-item" href="#">Puja Samagri Items</a></li>
+          <li></li>
           </ul>
       </div>
       <ul>
-        <li><input type="text" placeholder="Search.." className='search'></input></li>
+        <li><input type="text" placeholder="Search.." className='search' onChange={handleSearchChange}></input></li>
         <li><a href="/menu">Menu</a></li>
         <li><a href="/cart">Cart</a></li>
         <li><a href="/place-order">Place Order</a></li>
         <li><a href="/orders">Orders</a></li>
       </ul>
       <div className='cart-logout-div'>
-        <button onClick={handleLogout} className='cart'><img src={cart} /></button>
+        <button className='cart'><img src={cart} /></button>
         <button onClick={handleLogout} className='white-btn hover-btn'>Logout</button>
       </div>
     </nav>
