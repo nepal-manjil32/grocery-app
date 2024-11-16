@@ -33,7 +33,7 @@ const Navbar = ({ onLogin }) => {
         <li><Link to='testimonials' smooth={true} offset={-300} duration={500}>Testimonials</Link></li>
         <li><Link to='contact' smooth={true} offset={-300} duration={500}>Contact</Link></li>
         <li><Link to='#' smooth={true} offset={-300} duration={500} className='btn hover-btn' onClick={onLogin}>Sign Up</Link></li>
-        <li><img src={nepal} alt="" className='nepal-logo'/></li>
+        <li className='nepal-logo'><img src={nepal} alt=""/></li>
       </ul>
     </nav>
   );
