@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Navbar.css';
 import logo from '../../assets/logo.png';
 import white_logo from '../../assets/whitelogo.png';
+import nepal from '../../assets/nepal.gif';
 import { Link } from 'react-scroll';
 
 const Navbar = ({ onLogin }) => {
@@ -32,9 +33,7 @@ const Navbar = ({ onLogin }) => {
         <li><Link to='testimonials' smooth={true} offset={-300} duration={500}>Testimonials</Link></li>
         <li><Link to='contact' smooth={true} offset={-300} duration={500}>Contact</Link></li>
         <li><Link to='#' smooth={true} offset={-300} duration={500} className='btn hover-btn' onClick={onLogin}>Sign Up</Link></li>
-        {/* <li>
-          <button className='btn hover-btn' onClick={onLogin}>Sign In</button>
-        </li> */}
+        <li className='nepal-logo'><img src={nepal} alt=""/></li>
       </ul>
     </nav>
   );

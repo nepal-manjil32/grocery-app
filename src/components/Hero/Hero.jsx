@@ -7,8 +7,9 @@ const Hero = () => {
     <>
       <div className='hero'>
         <div className='hero-left'>
-            <h1>WELCOME TO </h1>
-            <h2>हाट बजार</h2>
+            <h1>नमस्कार!</h1>
+            <h2>WELCOME TO </h2>
+            <h3>हाट बजार</h3>
             <p>घरकै हाट बजार अनुभव</p>
             <p>"Experience the Local Market at Home"</p>
             <button className='shop-btn hover-btn'>Shop Now</button>

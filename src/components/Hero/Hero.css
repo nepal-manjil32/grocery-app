@@ -17,11 +17,16 @@
 }
 
 .hero-left h1{
-    font-size: 4rem;
+    font-size: 5rem;
     margin: 0;
 }
 
 .hero-left h2{
+    font-size: 4rem;
+    margin: 0;
+}
+
+.hero-left h3{
     font-size: 4.5rem;
     margin: 0;
 }
