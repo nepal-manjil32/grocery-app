@@ -1,24 +1,24 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Menu from "./pages/Menu";
-import Cart from "./pages/Cart";
-import PalceOrder from "./pages/PalceOrder";
 import Orders from "./pages/Orders";
-import AfterLogNav from "./components/Navbr_inside/AfterLogNav";
-import Carousel from "./components/Carousel/Carousel";
-import Card from "./components/Card/Card";
-import Title from "./components/Title/Title";
 import Home from "./pages/Home";
+import Cart from "./pages/Cart";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import AfterLogNav from "./components/Navbr_inside/AfterLogNav";
+import InsertProducts from "./components/InsertProducts/InsertProducts";
 
 const AppAfterLog = ({ onLogout }) => {
   return (
     <>
-      <Home onLogout={onLogout} />
+      <ToastContainer />
+      <AfterLogNav onLogout={onLogout}/>
       <Routes>
-        {/* <Route path="/" element={<Home onLogout={onLogout} />}/> */}
+        <Route path="/" element={<Home />} />
+        {/* <Route path="/dashboard/:category" element={<InsertProducts />} /> */}
         <Route path="/menu" element={<Menu />} />
         <Route path="/cart" element={<Cart />} />
-        <Route path="/place-order" element={<PalceOrder />} />
         <Route path="/orders" element={<Orders />} />
       </Routes>
     </>

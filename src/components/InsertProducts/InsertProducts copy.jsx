@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext, useState, useRef } from 'react';
 import { ShopContext } from '../../context/Shopcontext';
 import Title from '../Title/Title';
 import '../Card/Card.css';
@@ -23,10 +23,28 @@ const categoryLogos = {
 };
 
 const InsertProducts = () => {
-  const { filteredProducts, searchQuery, currency } = useContext(ShopContext);
+  const { filteredProducts, searchQuery, currency, addToCart } = useContext(ShopContext);
 
   const [selectedPrices, setSelectedPrices] = useState({});
   const [selectedDropdown, setSelectedDropdown] = useState({});
+  const [size, setSize] = useState('');
+
+  const sectionRefs = {
+    vegetables: useRef(null),
+    grains: useRef(null),
+    bakery: useRef(null),
+    household: useRef(null),
+    meat: useRef(null),
+    beverages: useRef(null),
+    puja: useRef(null),
+  };
+
+  const handleScrollToSection = (category) => {
+    const ref = sectionRefs[category];
+    if (ref && ref.current) {
+      ref.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   const handleDropdown = (productId, size) => {
     setSelectedDropdown((prev) => ({
@@ -42,6 +60,70 @@ const InsertProducts = () => {
     }));
   };
 
+  const renderProductCard = (item) => {
+    const dropdownValue = selectedDropdown[item.id || item.name] || item.sizes[0]?.size;
+    const productPrice = selectedPrices[item.id] || selectedPrices[item.name] || item.sizes[0]?.price;
+
+    return (
+      <div className="card" key={item.id || item.name}>
+        <img src={item.image} alt={item.name} />
+        <p>{item.company}</p>
+        <h5>{item.name}</h5>
+        <div className="btn-group categories">
+          <button
+            className="btn btn-secondary dropdown-toggle category-btn white-btn"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            {dropdownValue || 'Select Size'}
+          </button>
+          <ul className="dropdown-menu">
+            <div className="size_menu">
+              {item.sizes?.map((sizeObj, index) => (
+                <button
+                  className="size_btn"
+                  key={index}
+                  onClick={() => {
+                    handleDropdown(item.id || item.name, sizeObj.size);
+                    handleSizeChange(item.id || item.name, sizeObj.price || item.price);
+                    setSize(sizeObj.size);
+                  }}
+                >
+                  {sizeObj.size}
+                </button>
+              ))}
+            </div>
+          </ul>
+        </div>
+        <h4>
+          {currency}
+          {productPrice}
+        </h4>
+        <button className="add_btn" onClick={() => addToCart(item.id, size)}>Add</button>
+      </div>
+    );
+  };
+
+  const renderProductsSection = (title, subTitle, logo, category) => {
+    const categoryProducts = filteredProducts.filter(
+      (item) => item.category === category
+    );
+
+    return (
+      <div ref={sectionRefs[category]} key={category}>
+        <Title subTitle={subTitle} title={title} logo={logo} />
+        <div className="products">
+          {categoryProducts.length > 0 ? (
+            categoryProducts.map(renderProductCard)
+          ) : (
+            <p className="no-products">No products found in this category</p>
+          )}
+        </div>
+      </div>
+    );
+  };
+
   let dynamicTitle = 'Search Results';
   let dynamicSubTitle = 'Your search results';
   let dynamicLogo = search;
@@ -55,78 +137,10 @@ const InsertProducts = () => {
         : search;
   }
 
-  const renderProductCard = (item) => {
-    const dropdownValue = selectedDropdown[item.id || item.name] || item.sizes[0]?.size;
-  
-    const productPrice = selectedPrices[item.id] || selectedPrices[item.name] || item.price;
-  
-    return (
-      <div className="card" key={item.id || item.name}>
-        <img src={item.image} alt={item.name} />
-        <p>{item.company}</p>
-        <h5>{item.name}</h5>
-        <div className="btn-group categories">
-          <button
-            className="btn btn-secondary dropdown-toggle category-btn white-btn"
-            type="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            {dropdownValue} 
-          </button>
-          <ul className="dropdown-menu">
-            <div className="size_menu">
-              {item.sizes?.map((sizeObj, index) => (
-                <button
-                  className="size_btn"
-                  key={index}
-                  onClick={() => {
-                    handleDropdown(item.id || item.name, sizeObj.size);
-                    handleSizeChange(item.id || item.name, sizeObj.price || item.price);
-                  }}
-                >
-                  {sizeObj.size}
-                </button>
-              ))}
-            </div>
-          </ul>
-        </div>
-        <h4>
-          {currency}
-          {productPrice}
-        </h4>
-        <button className="add_btn">Add</button>
-      </div>
-    );
-  };
-
-  const renderProductsSection = (title, subTitle, logo, category) => {
-    const categoryProducts = filteredProducts.filter(
-      (item) => item.category === category
-    );
-
-    return (
-      <div key={category}>
-        <Title subTitle={subTitle} title={title} logo={logo} />
-        <div className="products">
-          {categoryProducts.length > 0 ? (
-            categoryProducts.map(renderProductCard)
-          ) : (
-            <p className="no-products">No products found in this category</p>
-          )}
-        </div>
-      </div>
-    );
-  };
-
   if (searchQuery) {
     return (
       <div>
-        <Title
-          subTitle={dynamicSubTitle}
-          title={dynamicTitle}
-          logo={dynamicLogo}
-        />
+        <Title subTitle={dynamicSubTitle} title={dynamicTitle} logo={dynamicLogo} />
         <div className="products">
           {filteredProducts.length > 0 ? (
             filteredProducts.map(renderProductCard)
@@ -140,6 +154,20 @@ const InsertProducts = () => {
 
   return (
     <div>
+      <div className="dropdown">
+        <button className="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+          Shop By Category
+        </button>
+        <ul className="dropdown-menu">
+          {Object.keys(sectionRefs).map((category) => (
+            <li key={category}>
+              <button className="dropdown-item" onClick={() => handleScrollToSection(category)}>
+                {category.charAt(0).toUpperCase() + category.slice(1)}
+              </button>
+            </li>
+          ))}
+        </ul>
+      </div>
       {renderProductsSection(
         'Seasonal Fruits and Vegetables',
         'मौसमी फलफूल र तरकारीहरू',

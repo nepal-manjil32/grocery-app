@@ -22,14 +22,15 @@ ul li a{
 }
 
 .cart{
-    background-color: white;
     border: 0;
     cursor: pointer;
     border-radius: 50%;
+    position: relative;
 }
 
 .cart img{
-    width: 20px;
+    width: 54px;
+    margin-bottom: 0;
 }
 
 .cart-logout-div{
@@ -46,4 +47,23 @@ ul li a{
 }
 .search:focus{
     outline: none;
+}
+.cart_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+.p_cart{
+    
+    width: fit-content;
+    height: fit-content;
+    padding: 0.5rem;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    color: white;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
 }

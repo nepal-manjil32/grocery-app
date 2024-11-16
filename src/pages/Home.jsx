@@ -6,10 +6,9 @@ import BottomCarousel from '../components/BottomCarousel/BottomCarousel';
 // import AfterLogFooter from '../components/AfterLogFooter/AfterLogFooter';
 import Footer from '../components/Footer/Footer';
 
-const Home = ({ onLogout }) => {
+const Home = () => {
   return (
     <div>
-      <AfterLogNav onLogout={onLogout} />
       <Carousel/>
       <InsertProducts />
       <BottomCarousel/>
