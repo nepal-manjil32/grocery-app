@@ -27,7 +27,7 @@ const AfterLogNav = ({ onLogout }) => {
         alt="Logo" 
         className="logo"
       />
-      <div class="btn-group categories">
+      {/* <div class="btn-group categories">
           <button class="btn btn-secondary dropdown-toggle category-btn white-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
             Categories
           </button>
@@ -41,7 +41,7 @@ const AfterLogNav = ({ onLogout }) => {
           <li><a class="dropdown-item" href="#">Puja Samagri Items</a></li>
           <li></li>
           </ul>
-      </div>
+      </div> */}
       <ul>
         <li><input type="text" placeholder="Search.." className='search' onChange={handleSearchChange}></input></li>
         {/* <li><a href="/menu">Menu</a></li>

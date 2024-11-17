@@ -15,11 +15,15 @@ p{
 }
 
 h5{
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 h4{
     font-size: 1.5rem;
+}
+
+.card img{
+    width: 180px;
 }
 
 .card .add_btn{
@@ -38,16 +42,44 @@ h4{
     cursor: pointer;
 }
 
+.dropdown-menu{
+    background-color: white;
+}
+
+.category-btn.white-btn{
+    background-color: #db5507;
+    width: 10rem;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid #db5507;
+}
+
+.category-btn.white-btn:hover{
+    background-color: #ffffff;
+    width: 10rem;
+    color: #db5507;
+    border-radius: 10px;
+    border: 2px solid #db5507;
+}
+
 .size_menu{
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
+    width: 15rem;
+    padding: 8px;
 }
 
 .size_btn{
-    width: fit-content;
-    border: none;
-    background: white;
-    border-radius: 1rem;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1.5px solid #db5507;
+    padding: 2px;
 }
   
+.size_btn:hover{
+    font-size: 15px;
+    background: #db5507;
+    padding: 2px;
+    color: white;
+}
