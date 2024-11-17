@@ -1,0 +1,29 @@
+.cart{
+    margin: 0 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn.pay-btn{
+    margin-top: 4rem;
+    padding: 2px;
+    width: 6rem;
+    border-radius: 5px;
+    border: 2px solid #147442;
+}
+
+.btn.pay-btn:hover{
+    border: 2px solid #147442;
+    color: #147442;
+}
+
+.cursor-pointer.delete-btn{
+    width: 35px;
+}
+
+.cart-upper{
+    width: 60vw;
+}
