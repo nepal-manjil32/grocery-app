@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import Title from "./components/Title/Title";
 import Testimonials from "./components/Testimonials/Testimonials";
+import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 
@@ -13,6 +14,8 @@ const App = ({ onLogin }) => {
       <Navbar onLogin={onLogin}/>
       <Hero />
       <div>
+        <Title subTitle="हाट बजार" title="About Us" />
+        <About />
         <Title subTitle="Testimonials" title="What Our Customers Say?" />
         <Testimonials />
         <Title subTitle="Contact" title="Let's Get Connected!" />

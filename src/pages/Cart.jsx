@@ -27,7 +27,7 @@ const Cart = () => {
   }, [cart])
 
   return (
-    <div className="border-t pt-14  cart">
+    <div className="border-t pt-14 cart">
       <div>
         <Title subTitle={'CART'} title={'ITEMS'} />
         {cartData.map((item, index) => {
@@ -37,7 +37,7 @@ const Cart = () => {
           ) 
           {/* Upper Part */}
           return (
-            <div key={index}>
+            <div key={index} className='cart-inner'>
               <div>
                 <img src={productData.image} alt="" />
                 <div>

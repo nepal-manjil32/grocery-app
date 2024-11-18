@@ -29,7 +29,7 @@ const Navbar = ({ onLogin }) => {
       />
       <ul>
         <li><Link to='hero' smooth={true} offset={-1} duration={500}>Home</Link></li>
-        <li><Link to='about' smooth={true} offset={-250} duration={500}>About</Link></li>
+        <li><Link to='about-container' smooth={true} offset={-270} duration={500}>About</Link></li>
         <li><Link to='testimonials' smooth={true} offset={-300} duration={500}>Testimonials</Link></li>
         <li><Link to='contact' smooth={true} offset={-300} duration={500}>Contact</Link></li>
         <li><Link to='#' smooth={true} offset={-300} duration={500} className='btn hover-btn' onClick={onLogin}>Sign Up</Link></li>

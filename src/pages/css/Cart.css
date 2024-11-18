@@ -1,14 +1,21 @@
 .cart{
-    margin: 0 1rem;
+    margin: 5rem 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border: 0;
     border-radius: 0;
-
+    width: 100%;
 }
 
+.cart-inner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 .cart-total{
     text-align: center;
