@@ -24,7 +24,7 @@ A full-stack grocery application designed to make shopping convenient for users 
 ```
 
 ## Features
-- **Product Browsing**: Users can browse a variety of grocery items categorized for easy navigation.
+- **Product Browsing**: Users can browse various grocery items categorized for easy navigation.
 - **Shopping Cart**: Add items to a cart and update quantities as desired.
 - **User Authentication** (planned): Secure user login and account management.
 - **Order History** (planned): Track past orders and reorder items easily.
@@ -43,14 +43,12 @@ A full-stack grocery application designed to make shopping convenient for users 
 2. **Install Dependencies**:
    ```bash
    npm install
-   cd client
-   npm install
    ```
 
 3. **Run the Application**:
    ```bash
    cd ..
-   npm start
+   npm run dev
    ```
 
 ## Contributing
