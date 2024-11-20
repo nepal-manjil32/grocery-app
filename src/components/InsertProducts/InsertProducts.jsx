@@ -154,7 +154,7 @@ const InsertProducts = () => {
 
   return (
     <div>
-      <div className="dropdown">
+      <div className="dropdown shop_by_cat">
         <button className="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown">
           Shop By Category
         </button>
@@ -167,6 +167,9 @@ const InsertProducts = () => {
             </li>
           ))}
         </ul>
+        <button className='price_filter_btn dropdown-toggle' type='button'  data-bs-toggle="dropdown">
+          Revelence
+        </button>
       </div>
       {renderProductsSection(
         'Seasonal Fruits and Vegetables',
