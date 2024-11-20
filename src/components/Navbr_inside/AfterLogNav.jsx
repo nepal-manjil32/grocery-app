@@ -50,7 +50,7 @@ const AfterLogNav = ({ onLogout }) => {
         <li><a href="/orders">Orders</a></li> */}
       </ul>
       <div className='cart-logout-div'>
-        <Link to='/AppAfterLog/cart' className='cart' onClick={() => console.log('Navigating to cart')}>
+        <Link to='/AppAfterLog/cart' className='cartlogo' onClick={() => console.log('Navigating to cart')}>
           <img className='cart_img' src={cart} />
           <p className='p_cart'>{getCartCount()}</p>
         </Link>

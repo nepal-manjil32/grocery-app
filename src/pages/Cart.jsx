@@ -27,9 +27,9 @@ const Cart = () => {
   }, [cart])
 
   return (
-    <div className="border-t pt-14 cart">
+    <div className="cart">
       <div>
-        <Title subTitle={'CART'} title={'ITEMS'} />
+        {/* <Title subTitle={'CART'} title={'ITEMS'} /> */}
         {cartData.map((item, index) => {
           const productData = products.find((product) => product.id === item.id)
           const sizeData = productData.sizes.find(
@@ -38,25 +38,24 @@ const Cart = () => {
           {/* Upper Part */}
           return (
             <div key={index} className='cart-inner'>
+              <h1>CART ITEMS</h1>
               <div>
                 <img src={productData.image} alt="" />
-                <div>
+                <div className='cart-inner-inner'>
                   <p>
-                    {productData.name}
+                      {productData.name}
                   </p>
-                  <div>
-                    <p>
+                  <p>
                       {currency}
                       {sizeData?.price || 'N/A'}
-                    </p>
-                    <p>
+                  </p>
+                  <p>
                       {item.size}
-                    </p>
-                  </div>
+                  </p>
                 </div>
+                <input onChange={(e)=>e.target.value === '' || e.target.value === '0' ? null : updateQuantity(item.id, item.size, Number(e.target.value))} className='quantity' type="number" min={1} defaultValue={item.quantity} />
+                <img onClick={() => updateQuantity(item.id, item.size, 0)} className='cursor-pointer delete-btn' src={bin} alt="" />
               </div>
-              <input onChange={(e)=>e.target.value === '' || e.target.value === '0' ? null : updateQuantity(item.id, item.size, Number(e.target.value))} className='border max-w-10 sm:max-w-20 px-1 sm:px-2 py-1' type="number" min={1} defaultValue={item.quantity} />
-              <img onClick={() => updateQuantity(item.id, item.size, 0)} className='cursor-pointer delete-btn' src={bin} alt="" />
             </div>
           )
         })}
@@ -64,11 +63,9 @@ const Cart = () => {
       
       {/* Lower Part */}
       <div >
-        <div>
-            <CartTotal/>
-        </div>
+          <CartTotal/>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }

@@ -1,27 +1,69 @@
 .cart{
-    margin: 5rem 1rem;
+    margin: 8rem 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border: 0;
     border-radius: 0;
-    width: 100%;
+    /* background-color: antiquewhite; */
 }
 
 .cart-inner{
-    width: 100%;
+    margin-top: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     flex-direction: column;
+    min-width: 800px;
+    /* border: 2px solid #147442; */
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgb(225, 224, 224);
+    padding: 10px;
+}
+
+.cart-inner > div{
+    margin: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.cart-inner .quantity{
+    border-radius: 10px;
+    border: 1px solid #147442;
+    margin-bottom: 1rem;
+    width: 4rem;
+    padding: 5px;
+}
+
+.cart-inner-inner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40rem;
 }
 
 .cart-total{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    flex-direction: column;
+    min-width: 500px;
+    /* border: 2px solid #147442; */
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgb(225, 224, 224);
+    padding: 10px;
 }
 
-
+.cart-total > div{
+    padding: 10px;
+    min-width: 450px;
+}
 
 .pay-btn{
     margin-top: 2rem;
@@ -41,4 +83,32 @@
 .cart-total.total{
     color: #000;
     font-size: 2rem;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-totalprice{
+    border-bottom: 2px solid #147442;
+}
+
+.total-payment-heading{
+    margin-bottom: 2rem;
+    font-size: 35px;
+    margin-left: 20%;
+}
+
+.cursor-pointer.delete-btn{
+    width: 40px;
+    cursor: pointer;
+    border: 2px solid #147442;
+    border-radius: 50%;
+    background-color: #147442;
+}
+
+.cursor-pointer.delete-btn:hover{
+    
 }

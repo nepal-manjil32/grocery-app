@@ -21,14 +21,14 @@ ul li a{
     font-size: 14px;
 }
 
-.cart{
+.cartlogo{
     border: 0;
     cursor: pointer;
     border-radius: 50%;
     position: relative;
 }
 
-.cart img{
+.cartlogo img{
     width: 54px;
     margin-bottom: 0;
 }
