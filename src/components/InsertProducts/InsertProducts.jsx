@@ -29,6 +29,8 @@ const InsertProducts = () => {
   const [selectedDropdown, setSelectedDropdown] = useState({});
   const [size, setSize] = useState('');
 
+  const [sortOption, setSortOption] = useState('')
+
   const sectionRefs = {
     vegetables: useRef(null),
     grains: useRef(null),
@@ -49,23 +51,37 @@ const InsertProducts = () => {
   const handleDropdown = (productId, size) => {
     setSelectedDropdown((prev) => ({
       ...prev,
-      [productId]: size,
+      [productId]: size, // Isolate dropdown selection by product ID
     }));
   };
 
   const handleSizeChange = (productId, price) => {
     setSelectedPrices((prev) => ({
       ...prev,
-      [productId]: price,
+      [productId]: price, // Isolate price selection by product ID
     }));
   };
 
+  const handleSortChange = (sortOption) =>{
+    setSortOption(sortOption);
+  }
+
+  const getSortedProducts = (products) =>{
+    if(sortOption === 'high-to-low'){
+      return [...products].sort((a, b) => b.sizes[0].price - a.sizes[0].price);
+    }
+    else if(sortOption === 'low-to-high'){
+      return [...products].sort((a, b) => a.sizes[0].price - b.sizes[0].price);
+    }
+    return products;
+  }
+
   const renderProductCard = (item) => {
-    const dropdownValue = selectedDropdown[item.id || item.name] || item.sizes[0]?.size;
-    const productPrice = selectedPrices[item.id] || selectedPrices[item.name] || item.sizes[0]?.price;
+    const dropdownValue = selectedDropdown[item.id] || item.sizes[0]?.size;
+    const productPrice = selectedPrices[item.id] || item.sizes[0]?.price;
 
     return (
-      <div className="card" key={item.id || item.name}>
+      <div className="card" key={item.id}>
         <img src={item.image} alt={item.name} />
         <p>{item.company}</p>
         <h5>{item.name}</h5>
@@ -85,9 +101,9 @@ const InsertProducts = () => {
                   className="size_btn"
                   key={index}
                   onClick={() => {
-                    handleDropdown(item.id || item.name, sizeObj.size);
-                    handleSizeChange(item.id || item.name, sizeObj.price || item.price);
-                    setSize(sizeObj.size);
+                    handleDropdown(item.id, sizeObj.size);
+                    handleSizeChange(item.id, sizeObj.price);
+                    setSize(sizeObj.size); // Optional: Use globally if necessary
                   }}
                 >
                   {sizeObj.size}
@@ -100,7 +116,9 @@ const InsertProducts = () => {
           {currency}
           {productPrice}
         </h4>
-        <button className="add_btn" onClick={() => addToCart(item.id, size)}>Add</button>
+        <button className="add_btn" onClick={() => addToCart(item.id, selectedDropdown[item.id])}>
+          Add
+        </button>
       </div>
     );
   };
@@ -109,6 +127,8 @@ const InsertProducts = () => {
     const categoryProducts = filteredProducts.filter(
       (item) => item.category === category
     );
+
+    const sortedProducts = getSortedProducts(filteredProducts);
 
     return (
       <div ref={sectionRefs[category]} key={category}>
@@ -138,6 +158,7 @@ const InsertProducts = () => {
   }
 
   if (searchQuery) {
+    const sortedProducts = getSortedProducts(filteredProducts);
     return (
       <div>
         <Title subTitle={dynamicSubTitle} title={dynamicTitle} logo={dynamicLogo} />
@@ -155,7 +176,7 @@ const InsertProducts = () => {
   return (
     <div>
       <div className="dropdown shop_by_cat">
-        <button className="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+        <button className="btn btn-primary dropdown-toggle " type="button" data-bs-toggle="dropdown">
           Shop By Category
         </button>
         <ul className="dropdown-menu">
@@ -167,9 +188,38 @@ const InsertProducts = () => {
             </li>
           ))}
         </ul>
-        <button className='price_filter_btn dropdown-toggle' type='button'  data-bs-toggle="dropdown">
-          Revelence
+        <button className='price_filter_btn dropdown-toggle' type='button'>
+          Relevence
         </button>
+        
+        {/* Relevance Dropdown */}
+        <div className="dropdown">
+          <button
+            className="btn btn-secondary dropdown-toggle price_filter_btn"
+            type="button"
+            data-bs-toggle="dropdown"
+          >
+            Relevance
+          </button>
+          <ul className="dropdown-menu">
+            <li>
+              <button
+                className="dropdown-item"
+                onClick={() => handleSortChange('lowToHigh')}
+              >
+                Price: Low to High
+              </button>
+            </li>
+            <li>
+              <button
+                className="dropdown-item"
+                onClick={() => handleSortChange('highToLow')}
+              >
+                Price: High to Low
+              </button>
+            </li>
+          </ul>
+        </div>
       </div>
       {renderProductsSection(
         'Seasonal Fruits and Vegetables',

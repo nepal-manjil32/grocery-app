@@ -29,7 +29,7 @@ const Cart = () => {
   return (
     <div className="cart">
       <div>
-        {/* <Title subTitle={'CART'} title={'ITEMS'} /> */}
+        <Title subTitle={'CART'} title={'ITEMS'} />
         {cartData.map((item, index) => {
           const productData = products.find((product) => product.id === item.id)
           const sizeData = productData.sizes.find(
@@ -38,7 +38,7 @@ const Cart = () => {
           {/* Upper Part */}
           return (
             <div key={index} className='cart-inner'>
-              <h1>CART ITEMS</h1>
+              {/* <h1>CART ITEMS</h1> */}
               <div>
                 <img src={productData.image} alt="" />
                 <div className='cart-inner-inner'>
