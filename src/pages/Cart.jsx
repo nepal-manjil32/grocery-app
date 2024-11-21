@@ -38,7 +38,7 @@ const Cart = () => {
           {/* Upper Part */}
           return (
             <div key={index} className='cart-inner'>
-              <h1>CART ITEMS</h1>
+              {/* <h1 className='cart-items'>CART ITEMS</h1> */}
               <div>
                 <img src={productData.image} alt="" />
                 <div className='cart-inner-inner'>
