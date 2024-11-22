@@ -72,6 +72,8 @@ a{
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
+  justify-content:space-evenly;
+  box-sizing: border-box;
 }
 
 .admin-btn{

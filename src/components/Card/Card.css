@@ -14,7 +14,7 @@
 } */
 
 .card{
-    width: 16.5rem;
+    width: 20rem;
     max-height: fit-content;
     background: rgb(255, 255, 255);
     box-shadow: 2px 2px 5px rgb(184, 183, 183);
@@ -28,24 +28,35 @@
     overflow: hidden;
 }
 
-.item_details{
+.item_details {
     display: flex;
+    justify-content: left;
+    align-items: center; 
+    height: 2rem;
 }
+
 p{
     color: rgb(174, 172, 172);
 }
 
-.item_name{
+.item_name {
     font-size: 1.2rem;
     color: black;
     font-weight: 500;
-    width: max-content;
+    text-align: left;
+    overflow: hidden;
+    display: -webkit-box;
+    /* -webkit-line-clamp: 2; */
+    -webkit-box-orient: vertical;
+    line-height: 1.4rem;
+    max-height: 4rem;
 }
 
 .card img{
-    width: 15rem;
-    height: 15rem;
-    padding: 1.2rem;
+    width: auto;
+    height: auto;
+    padding: 0.2rem;
+    border-radius: 0.5rem;
 }
 
 .card .add_btn{
