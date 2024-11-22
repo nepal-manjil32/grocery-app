@@ -2,7 +2,7 @@
   "products": [
     {
       "id": "1",
-      "name": "Wai Wai Ready To Eat Veg Noodles",
+      "name": "Wai Wai Ready to eat Veg Noodles",
       "image": "https://www.bigbasket.com/media/uploads/p/l/20004319_7-wai-wai-ready-to-eat-noodles-veg-masala.jpg",
       "company": "Chaudhary Group",
       "category": "snacks",
@@ -432,7 +432,7 @@
     },
     {
       "id": "23",
-      "name": "Kerela Banana Chips - Orginal Style",
+      "name": "Kerela Banana Chips - Original Style",
       "image": "https://www.bigbasket.com/media/uploads/p/l/40221579_2-beyond-snack-kerala-banana-chips-original-style.jpg",
       "company": "Beyond Snack",
       "category": "snacks",
@@ -617,6 +617,163 @@
         {
           "size": "750 g",
           "price": 440
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "Fudge It Brownie",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40204406_1-britannia-chocolate-brownie.jpg",
+      "company": "Britannia",
+      "category": "bakery",
+      "sizes": [
+        {
+          "size": "40 g",
+          "price": 20
+        },
+        {
+          "size": "80",
+          "price": 35
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "English Tea Cake",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40320458_1-britannia-english-tea-cake.jpg",
+      "company": "Britinnia",
+      "category": "bakery",
+      "sizes": [
+        {
+          "size": "250 g",
+          "price": 140
+        },
+        {
+          "size": "250 g x 2",
+          "price": 280
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "Processed Toned Milk",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/20005539_3-heritage-toned-milk-special.jpg",
+      "company": "Heritage",
+      "category": "bakery",
+      "sizes": [
+        {
+          "size": "500 ml",
+          "price": 28
+        },
+        {
+          "size": "1 L ",
+          "price": 55
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "Paneer",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40096747_8-amul-malai-fresh-paneer.jpg",
+      "company": "Amul",
+      "category": "bakery",
+      "sizes": [
+        {
+          "size": "200 g",
+          "price": 90
+        },
+        {
+          "size": "1 kg",
+          "price": 440
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "Milk Powder",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/125546_8-nestle-everyday-dairy-whitener-milk-powder-for-tea.jpg",
+      "company": "Nestle",
+      "category": "bakery",
+      "sizes": [
+        {
+          "size": "200 g",
+          "price": 130
+        },
+        {
+          "size": "400 g",
+          "price": 250
+        },
+        {
+          "size": "1 kg",
+          "price": 610
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "name": "Butter Cookies",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40219511_4-tasties-butter-cookies-sugar-free.jpg",
+      "company": "Tasties",
+      "category": "bakery",
+      "sizes": [
+        {
+          "size": "75 g",
+          "price": 45
+        },
+        {
+          "size": "200 g",
+          "price": 120
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "name": "Biscuit - Fruit Jam",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40200456_2-bb-popular-bakery-biscuit-fruit-jam.jpg",
+      "company": "BB Popular",
+      "category": "bakery",
+      "sizes": [
+        {
+          "size": "200 g",
+          "price": 155
+        },
+        {
+          "size": "400 g",
+          "price": 315
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "name": " Glass & Surface Cleaner Liquid Spray",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/263819_19-colin-glass-cleaner-liquid-spray-bottle-cleans-mirror-car-home-appliances.jpg",
+      "company": "Colin",
+      "category": "household",
+      "sizes": [
+        {
+          "size": "500 ml",
+          "price": 110
+        },
+        {
+          "size": "500 ml x 3",
+          "price": 330
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "name": "Camphor Tablets",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40316713_4-daivya-sparsh-camphor-tablets-pure.jpg",
+      "company": "Daivya Sparsh",
+      "category": "household",
+      "sizes": [
+        {
+          "size": "100 g",
+          "price": 135
+        },
+        {
+          "size": "200 g ",
+          "price": 270
         }
       ]
     }
