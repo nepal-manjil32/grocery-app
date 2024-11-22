@@ -1,17 +1,17 @@
-import React, { useContext, useState, useRef } from 'react';
-import { ShopContext } from '../../context/Shopcontext';
-import Title from '../Title/Title';
-import '../Card/Card.css';
-import '../../index.css';
-import drinks from '../../assets/drinks.png';
-import vegetables from '../../assets/vegetables.png';
-import puja from '../../assets/puja.png';
-import bakery from '../../assets/bakery.png';
-import barbecue from '../../assets/barbecue.png';
-import household from '../../assets/household.png';
-import rice from '../../assets/rice.png';
-import search from '../../assets/search.png';
-import snacks from '../../assets/snack.png';
+import React, { useContext, useState, useRef } from "react";
+import { ShopContext } from "../../context/Shopcontext";
+import Title from "../Title/Title";
+import "../Card/Card.css";
+import "../../index.css";
+import drinks from "../../assets/drinks.png";
+import vegetables from "../../assets/vegetables.png";
+import puja from "../../assets/puja.png";
+import bakery from "../../assets/bakery.png";
+import barbecue from "../../assets/barbecue.png";
+import household from "../../assets/household.png";
+import rice from "../../assets/rice.png";
+import search from "../../assets/search.png";
+import snacks from "../../assets/snack.png";
 
 const categoryLogos = {
   vegetables: vegetables,
@@ -25,13 +25,14 @@ const categoryLogos = {
 };
 
 const InsertProducts = () => {
-  const { filteredProducts, searchQuery, currency, addToCart } = useContext(ShopContext);
+  const { filteredProducts, searchQuery, currency, addToCart } =
+    useContext(ShopContext);
 
   const [selectedPrices, setSelectedPrices] = useState({});
   const [selectedDropdown, setSelectedDropdown] = useState({});
-  const [size, setSize] = useState('');
+  const [size, setSize] = useState("");
 
-  const [sortOption, setSortOption] = useState('');
+  const [sortOption, setSortOption] = useState("");
 
   const sectionRefs = {
     vegetables: useRef(null),
@@ -47,7 +48,7 @@ const InsertProducts = () => {
   const handleScrollToSection = (category) => {
     const ref = sectionRefs[category];
     if (ref && ref.current) {
-      ref.current.scrollIntoView({ behavior: 'smooth' });
+      ref.current.scrollIntoView({ behavior: "smooth" });
     }
   };
 
@@ -65,30 +66,30 @@ const InsertProducts = () => {
     }));
   };
 
-  const handleSortChange = (sortOption) =>{
+  const handleSortChange = (sortOption) => {
     setSortOption(sortOption);
-  }
+  };
 
-  const getSortedProducts = (products) =>{
-    if(sortOption === 'highToLow'){
+  const getSortedProducts = (products) => {
+    if (sortOption === "highToLow") {
       return [...products].sort((a, b) => b.sizes[0].price - a.sizes[0].price);
-    }
-    else if(sortOption === 'lowToHigh'){
+    } else if (sortOption === "lowToHigh") {
       return [...products].sort((a, b) => a.sizes[0].price - b.sizes[0].price);
     }
     return products;
-  }
+  };
 
   const renderProductCard = (item) => {
-    const dropdownValue = selectedDropdown[item.id] || item.sizes[0]?.size;
-    const productPrice = selectedPrices[item.id] || item.sizes[0]?.price;
+    // const dropdownValue = selectedDropdown[item.id] || item.sizes[0]?.size;
+    const dropdownValue = selectedDropdown[item.id] || "Select Size";
+    const productPrice = selectedPrices[item.id];
 
     return (
       <div className="card" key={item.id}>
         <img src={item.image} alt={item.name} />
         <p>{item.company}</p>
-        <div className='item_details'>
-          <p className='item_name'>{item.name}</p>
+        <div className="item_details">
+          <p className="item_name">{item.name}</p>
         </div>
         <div className="btn-group categories">
           <button
@@ -97,7 +98,7 @@ const InsertProducts = () => {
             data-bs-toggle="dropdown"
             aria-expanded="false"
           >
-            {dropdownValue ? dropdownValue : 'Select Size'}
+            {dropdownValue}
           </button>
           <ul className="dropdown-menu">
             <div className="size_menu">
@@ -118,10 +119,16 @@ const InsertProducts = () => {
           </ul>
         </div>
         <h4>
-          {currency}
-          {productPrice}
+          {productPrice !== undefined ? (
+            <>
+              {currency}
+              {productPrice}
+            </>
+          ) : (
+            <h6>Select size to see price</h6>
+          )}
         </h4>
-        <button className="add_btn" onClick={() => addToCart(item.id, selectedDropdown[item.id])}>
+        <button className="add_btn" onClick={() => addToCart(item.id, selectedDropdown[item.id])} >
           Add
         </button>
       </div>
@@ -149,8 +156,8 @@ const InsertProducts = () => {
     );
   };
 
-  let dynamicTitle = 'Search Results';
-  let dynamicSubTitle = 'Your search results';
+  let dynamicTitle = "Search Results";
+  let dynamicSubTitle = "Your search results";
   let dynamicLogo = search;
 
   if (searchQuery) {
@@ -166,7 +173,11 @@ const InsertProducts = () => {
     const sortedProducts = getSortedProducts(filteredProducts);
     return (
       <div>
-        <Title subTitle={dynamicSubTitle} title={dynamicTitle} logo={dynamicLogo} />
+        <Title
+          subTitle={dynamicSubTitle}
+          title={dynamicTitle}
+          logo={dynamicLogo}
+        />
         <div className="products">
           {sortedProducts.length > 0 ? (
             sortedProducts.map(renderProductCard)
@@ -181,13 +192,20 @@ const InsertProducts = () => {
   return (
     <div>
       <div className="dropdown shop_by_cat">
-        <button className="btn btn-primary dropdown-toggle " type="button" data-bs-toggle="dropdown">
+        <button
+          className="btn btn-primary dropdown-toggle "
+          type="button"
+          data-bs-toggle="dropdown"
+        >
           Shop By Category
         </button>
         <ul className="dropdown-menu">
           {Object.keys(sectionRefs).map((category) => (
             <li key={category}>
-              <button className="dropdown-item" onClick={() => handleScrollToSection(category)}>
+              <button
+                className="dropdown-item"
+                onClick={() => handleScrollToSection(category)}
+              >
                 {category.charAt(0).toUpperCase() + category.slice(1)}
               </button>
             </li>
@@ -206,7 +224,7 @@ const InsertProducts = () => {
             <li>
               <button
                 className="dropdown-item"
-                onClick={() => handleSortChange('lowToHigh')}
+                onClick={() => handleSortChange("lowToHigh")}
               >
                 Price: Low to High
               </button>
@@ -214,7 +232,7 @@ const InsertProducts = () => {
             <li>
               <button
                 className="dropdown-item"
-                onClick={() => handleSortChange('highToLow')}
+                onClick={() => handleSortChange("highToLow")}
               >
                 Price: High to Low
               </button>
@@ -223,52 +241,47 @@ const InsertProducts = () => {
         </div>
       </div>
       {renderProductsSection(
-        'Seasonal Fruits and Vegetables',
-        'मौसमी फलफूल र तरकारीहरू',
+        "Seasonal Fruits and Vegetables",
+        "मौसमी फलफूल र तरकारीहरू",
         vegetables,
-        'vegetables'
+        "vegetables"
       )}
       {renderProductsSection(
-        'Food, Grains, and Oil',
-        'खाद्य, अन्न, र तेल',
+        "Food, Grains, and Oil",
+        "खाद्य, अन्न, र तेल",
         rice,
-        'grains'
+        "grains"
       )}
       {renderProductsSection(
-        'Snacks and Branded Foods',
-        'नास्ता र ब्रान्डेड खाद्य पदार्थहरू',
+        "Snacks and Branded Foods",
+        "नास्ता र ब्रान्डेड खाद्य पदार्थहरू",
         snacks,
-        'snacks'
+        "snacks"
       )}
       {renderProductsSection(
-        'Bakery Cakes Dairy',
-        'बेकरी, केक, र डेरी उत्पादनहरू',
+        "Bakery Cakes Dairy",
+        "बेकरी, केक, र डेरी उत्पादनहरू",
         bakery,
-        'bakery'
+        "bakery"
       )}
       {renderProductsSection(
-        'Cleaning and Household',
-        'सफाइ र घरायसी सामग्रीहरू',
+        "Cleaning and Household",
+        "सफाइ र घरायसी सामग्रीहरू",
         household,
-        'household'
+        "household"
       )}
       {renderProductsSection(
-        'Eggs, Fish, and Meat',
-        'अण्डा, माछा, र मासु',
+        "Eggs, Fish, and Meat",
+        "अण्डा, माछा, र मासु",
         barbecue,
-        'meat'
+        "meat"
       )}
+      {renderProductsSection("Beverages", "पेय पदार्थहरू", drinks, "beverages")}
       {renderProductsSection(
-        'Beverages',
-        'पेय पदार्थहरू',
-        drinks,
-        'beverages'
-      )}
-      {renderProductsSection(
-        'Puja Samagri Items',
-        'पूजा सामग्री सामग्रीहरू',
+        "Puja Samagri Items",
+        "पूजा सामग्री सामग्रीहरू",
         puja,
-        'puja'
+        "puja"
       )}
     </div>
   );
