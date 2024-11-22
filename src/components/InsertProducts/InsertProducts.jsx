@@ -29,7 +29,7 @@ const InsertProducts = () => {
   const [selectedDropdown, setSelectedDropdown] = useState({});
   const [size, setSize] = useState('');
 
-  const [sortOption, setSortOption] = useState('')
+  const [sortOption, setSortOption] = useState('');
 
   const sectionRefs = {
     vegetables: useRef(null),
@@ -51,14 +51,14 @@ const InsertProducts = () => {
   const handleDropdown = (productId, size) => {
     setSelectedDropdown((prev) => ({
       ...prev,
-      [productId]: size, // Isolate dropdown selection by product ID
+      [productId]: size,
     }));
   };
 
   const handleSizeChange = (productId, price) => {
     setSelectedPrices((prev) => ({
       ...prev,
-      [productId]: price, // Isolate price selection by product ID
+      [productId]: price,
     }));
   };
 
@@ -67,10 +67,10 @@ const InsertProducts = () => {
   }
 
   const getSortedProducts = (products) =>{
-    if(sortOption === 'high-to-low'){
+    if(sortOption === 'highToLow'){
       return [...products].sort((a, b) => b.sizes[0].price - a.sizes[0].price);
     }
-    else if(sortOption === 'low-to-high'){
+    else if(sortOption === 'lowToHigh'){
       return [...products].sort((a, b) => a.sizes[0].price - b.sizes[0].price);
     }
     return products;
@@ -103,7 +103,7 @@ const InsertProducts = () => {
                   onClick={() => {
                     handleDropdown(item.id, sizeObj.size);
                     handleSizeChange(item.id, sizeObj.price);
-                    setSize(sizeObj.size); // Optional: Use globally if necessary
+                    setSize(sizeObj.size);
                   }}
                 >
                   {sizeObj.size}
@@ -128,14 +128,14 @@ const InsertProducts = () => {
       (item) => item.category === category
     );
 
-    const sortedProducts = getSortedProducts(filteredProducts);
+    const sortedProducts = getSortedProducts(categoryProducts);
 
     return (
       <div ref={sectionRefs[category]} key={category}>
         <Title subTitle={subTitle} title={title} logo={logo} />
         <div className="products">
-          {categoryProducts.length > 0 ? (
-            categoryProducts.map(renderProductCard)
+          {sortedProducts.length > 0 ? (
+            sortedProducts.map(renderProductCard)
           ) : (
             <p className="no-products">No products found in this category</p>
           )}
@@ -163,8 +163,8 @@ const InsertProducts = () => {
       <div>
         <Title subTitle={dynamicSubTitle} title={dynamicTitle} logo={dynamicLogo} />
         <div className="products">
-          {filteredProducts.length > 0 ? (
-            filteredProducts.map(renderProductCard)
+          {sortedProducts.length > 0 ? (
+            sortedProducts.map(renderProductCard)
           ) : (
             <p className="no-products">No products match your search.</p>
           )}
@@ -188,14 +188,10 @@ const InsertProducts = () => {
             </li>
           ))}
         </ul>
-        <button className='price_filter_btn dropdown-toggle' type='button'>
-          Relevence
-        </button>
-        
         {/* Relevance Dropdown */}
         <div className="dropdown">
           <button
-            className="btn btn-secondary dropdown-toggle price_filter_btn"
+            className="btn-secondary dropdown-toggle price_filter_btn"
             type="button"
             data-bs-toggle="dropdown"
           >

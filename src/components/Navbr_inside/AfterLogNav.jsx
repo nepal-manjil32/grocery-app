@@ -22,11 +22,9 @@ const AfterLogNav = ({ onLogout }) => {
 
   return (
     <nav className='afterlogin-nav'>
-      <img 
-        src={white_logo} 
-        alt="Logo" 
-        className="logo"
-      />
+      <Link to={'/'}>
+        <img src={white_logo} alt="Logo" className="logo" />
+      </Link>
       {/* <div class="btn-group categories">
           <button class="btn btn-secondary dropdown-toggle category-btn white-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
             Categories
