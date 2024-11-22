@@ -15,6 +15,9 @@ const ShopContextProvider = (props) => {
       toast.error("Please select size");
       return;
     }
+    if(size){
+      toast.success("Item added to cart");
+    }
 
     let cartData = structuredClone(cart);
 

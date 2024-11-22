@@ -97,7 +97,7 @@ const InsertProducts = () => {
             data-bs-toggle="dropdown"
             aria-expanded="false"
           >
-            {dropdownValue || 'Select Size'}
+            {dropdownValue ? dropdownValue : 'Select Size'}
           </button>
           <ul className="dropdown-menu">
             <div className="size_menu">
