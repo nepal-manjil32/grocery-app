@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "../Admin/Admin.css";
+import { Link } from "react-router-dom";
+import Delete from "./Delete";
 
 const Add = () => {
   const [id, setId] = useState("");
@@ -133,6 +135,9 @@ const Add = () => {
             </button>
           </div>
         </form>
+      </div>
+      <div className="delete_div">
+        <Link to={'/AppAfterLog/delete'} className='admin-btn'>Delete Products</Link>
       </div>
     </div>
   );

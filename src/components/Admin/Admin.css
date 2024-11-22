@@ -1,8 +1,10 @@
 .admin_container{
     margin: 10rem auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 5rem;
 }
 
 .add_p{
