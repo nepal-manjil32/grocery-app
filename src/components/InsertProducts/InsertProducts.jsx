@@ -11,6 +11,7 @@ import barbecue from '../../assets/barbecue.png';
 import household from '../../assets/household.png';
 import rice from '../../assets/rice.png';
 import search from '../../assets/search.png';
+import snacks from '../../assets/snack.png';
 
 const categoryLogos = {
   vegetables: vegetables,
@@ -20,6 +21,7 @@ const categoryLogos = {
   meat: barbecue,
   beverages: drinks,
   puja: puja,
+  snacks: snacks,
 };
 
 const InsertProducts = () => {
@@ -33,6 +35,7 @@ const InsertProducts = () => {
 
   const sectionRefs = {
     vegetables: useRef(null),
+    snacks: useRef(null),
     grains: useRef(null),
     bakery: useRef(null),
     household: useRef(null),
@@ -84,7 +87,9 @@ const InsertProducts = () => {
       <div className="card" key={item.id}>
         <img src={item.image} alt={item.name} />
         <p>{item.company}</p>
-        <h5>{item.name}</h5>
+        <div className='item_details'>
+          <p className='item_name'>{item.name}</p>
+        </div>
         <div className="btn-group categories">
           <button
             className="btn btn-secondary dropdown-toggle category-btn white-btn"
@@ -153,7 +158,7 @@ const InsertProducts = () => {
     dynamicSubTitle = `Found ${filteredProducts.length} matching product(s)`;
     dynamicLogo =
       filteredProducts.length > 0
-        ? categoryLogos[filteredProducts[0]?.category] || puja
+        ? categoryLogos[filteredProducts[0]?.category]
         : search;
   }
 
@@ -228,6 +233,12 @@ const InsertProducts = () => {
         'खाद्य, अन्न, र तेल',
         rice,
         'grains'
+      )}
+      {renderProductsSection(
+        'Snacks and Branded Foods',
+        'नास्ता र ब्रान्डेड खाद्य पदार्थहरू',
+        snacks,
+        'snacks'
       )}
       {renderProductsSection(
         'Bakery Cakes Dairy',
