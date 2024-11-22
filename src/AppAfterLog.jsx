@@ -8,6 +8,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import AfterLogNav from "./components/Navbr_inside/AfterLogNav";
 import InsertProducts from "./components/InsertProducts/InsertProducts";
+import Add from "./components/Admin/Add";
 
 const AppAfterLog = ({ onLogout }) => {
   return (
@@ -20,6 +21,7 @@ const AppAfterLog = ({ onLogout }) => {
         <Route path="/menu" element={<Menu />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/orders" element={<Orders />} />
+        <Route path="/admin" element={<Add/>} />
       </Routes>
     </>
   );

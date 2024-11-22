@@ -1,243 +1,48 @@
 {
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Sunit",
       "image": "../src/assets/waiwai.png",
       "company": "Company Name",
       "sizes": [
-        { "size": "41 g", "price": 10, "inStock": false },
-        { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
-        { "size": "100 g", "price": 38, "inStock": true }
+        {
+          "size": "41 g",
+          "price": 10,
+          "inStock": false
+        },
+        {
+          "size": "3x41 g - Multipack",
+          "price": 30,
+          "inStock": false
+        },
+        {
+          "size": "100 g",
+          "price": 38,
+          "inStock": true
+        }
       ],
-      "category":"grains"
+      "category": "grains"
     },
     {
-      "id": 2,
-      "company": "fresho!",
-      "name": "Lemon",
+      "id": "2",
+      "name": "Milk",
       "image": "../src/assets/waiwai.png",
-      "category": "grains",
-      "sizes": [
-        { "size": "41 g", "price": 20, "inStock": false },
-        { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
-        { "size": "100 g", "price": 38, "inStock": true }
-      ]
-    },
-    {
-      "id": 3,
-      "company": "fresho!",
-      "name": "Tomato",
-      "image": "../src/assets/waiwai.png",
-      "category": "bakery",
-      "sizes": [
-        { "size": "41 g", "price": 400, "inStock": false },
-        { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
-        { "size": "100 g", "price": 38, "inStock": true }
-      ]
-    },
-    {
-      "id": 4,
-      "company": "Chaudary Group",
-      "name": "Wai Wai",
-      "image": "../src/assets/waiwai.png",
-      "category": "household",
-      "sizes": [
-        { "size": "41 g", "price": 5, "inStock": false },
-        { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
-        { "size": "100 g", "price": 38, "inStock": true }
-      ]
-    },
-    {
-      "id": 5,
-      "company": "fresho!",
-      "name": "Lemon",
-      "image": "../src/assets/waiwai.png",
-      "category": "meat",
-      "sizes": [
-        { "size": "41 g", "price": 1000, "inStock": false },
-        { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
-        { "size": "100 g", "price": 38, "inStock": true }
-      ]
-    },
-    {
-      "id": 6,
-      "company": "fresho!",
-      "name": "Tomato",
-      "image": "../src/assets/waiwai.png",
-      "category": "beverages",
-      "sizes": [
-        { "size": "41 g", "price": 10, "inStock": false },
-        { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
-        { "size": "100 g", "price": 38, "inStock": true }
-      ]
-    },
-    {
-      "id": 7,
-      "company": "Chaudary Group",
-      "name": "Wai Wai",
-      "image": "../src/assets/waiwai.png",
-      "category": "puja",
-      "sizes": [
-        { "size": "41 g", "price": 10, "inStock": false },
-        { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
-        { "size": "100 g", "price": 38, "inStock": true }
-      ]
-    },
-    {
-      "id": 8,
-      "company": "fresho!",
-      "name": "Lemon",
-      "image": "../src/assets/waiwai.png",
+      "company": "Milk Company",
       "category": "vegetables",
       "sizes": [
-        { "size": "41 g", "price": 10, "inStock": false },
-        { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
-        { "size": "100 g", "price": 38, "inStock": true }
-      ]
-    },
-    {
-      "id": 9,
-      "company": "fresho!",
-      "name": "Tomato",
-      "image": "../src/assets/waiwai.png",
-      "category": "vegetables",
-      "sizes": [
-        { "size": "41 g", "price": 10, "inStock": false },
-        { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
-        { "size": "100 g", "price": 38, "inStock": true }
-      ]
-    },
-    {
-      "id": 10,
-      "company": "Chaudary Group",
-      "name": "Wai Wai",
-      "image": "../src/assets/waiwai.png",
-      "category": "Noodles",
-      "sizes": [
-        { "size": "41 g", "price": 10, "inStock": false },
-        { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
-        { "size": "100 g", "price": 38, "inStock": true }
-      ]
-    },
-    {
-      "id": 11,
-      "company": "fresho!",
-      "name": "Lemon",
-      "image": "../src/assets/waiwai.png",
-      "category": "vegetables",
-      "sizes": [
-        { "size": "41 g", "price": 10, "inStock": false },
-        { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
-        { "size": "100 g", "price": 38, "inStock": true }
-      ]
-    },
-    {
-      "id": 12,
-      "company": "fresho!",
-      "name": "Tomato",
-      "image": "../src/assets/waiwai.png",
-      "category": "vegetables",
-      "sizes": [
-        { "size": "41 g", "price": 10, "inStock": false },
-        { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
-        { "size": "100 g", "price": 38, "inStock": true }
-      ]
-    },
-    {
-      "id": 13,
-      "company": "Chaudary Group",
-      "name": "Wai Wai",
-      "image": "../src/assets/waiwai.png",
-      "category": "Noodles",
-      "sizes": [
-        { "size": "41 g", "price": 10, "inStock": false },
-        { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
-        { "size": "100 g", "price": 38, "inStock": true }
-      ]
-    },
-    {
-      "id": 14,
-      "company": "fresho!",
-      "name": "Lemon",
-      "image": "../src/assets/waiwai.png",
-      "category": "vegetables",
-      "sizes": [
-        { "size": "41 g", "price": 10, "inStock": false },
-        { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
-        { "size": "100 g", "price": 38, "inStock": true }
-      ]
-    },
-    {
-      "id": 15,
-      "company": "fresho!",
-      "name": "Tomato",
-      "image": "../src/assets/waiwai.png",
-      "category": "vegetables",
-      "sizes": [
-        { "size": "41 g", "price": 10, "inStock": false },
-        { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
-        { "size": "100 g", "price": 38, "inStock": true }
-      ]
-    },
-    {
-      "id": 16,
-      "company": "Chaudary Group",
-      "name": "Wai Wai",
-      "image": "../src/assets/waiwai.png",
-      "category": "Noodles",
-      "sizes": [
-        { "size": "41 g", "price": 12, "inStock": false },
-        { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
-        { "size": "100 g", "price": 38, "inStock": true }
-      ]
-    },
-    {
-      "id": 17,
-      "company": "fresho!",
-      "name": "Lemon",
-      "image": "../src/assets/waiwai.png",
-      "category": "vegetables",
-      "sizes": [
-        { "size": "41 g", "price": 500, "inStock": false },
-        { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
-        { "size": "100 g", "price": 38, "inStock": true }
-      ]
-    },
-    {
-      "id": 18,
-      "company": "fresho!",
-      "name": "Tomato",
-      "image": "../src/assets/waiwai.png",
-      "category": "vegetables",
-      "sizes": [
-        { "size": "41 g", "price": 5, "inStock": false },
-        { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
-        { "size": "100 g", "price": 38, "inStock": true }
-      ]
-    },
-    {
-      "id": 19,
-      "company": "Chaudary Group",
-      "name": "Wai Wai",
-      "image": "../src/assets/waiwai.png",
-      "category": "Noodles",
-      "sizes": [
-        { "size": "41 g", "price": 1000, "inStock": false },
-        { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
-        { "size": "100 g", "price": 38, "inStock": true }
-      ]
-    },
-    {
-      "id": 20,
-      "company": "fresho!",
-      "name": "Lemon",
-      "image": "../src/assets/waiwai.png",
-      "category": "vegetables",
-      "sizes": [
-        { "size": "41 g", "price": 100, "inStock": false },
-        { "size": "3x41 g - Multipack", "price": 30, "inStock": false },
-        { "size": "100 g", "price": 38, "inStock": true }
+        {
+          "size": "40 g",
+          "price": 50
+        },
+        {
+          "size": "50g",
+          "price": 66
+        },
+        {
+          "size": "50 g",
+          "price": 990
+        }
       ]
     }
   ]
