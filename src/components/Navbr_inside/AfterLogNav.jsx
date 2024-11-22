@@ -53,7 +53,7 @@ const AfterLogNav = ({ onLogout }) => {
           <p className='p_cart'>{getCartCount()}</p>
         </Link>
         <button onClick={handleLogout} className='white-btn hover-btn'>Logout</button>
-        <Link to={'/AppAfterLog/admin'}>Admin</Link>
+        <Link to={'/AppAfterLog/admin'} className='admin-btn'>Admin</Link>
       </div>
     </nav>
   );

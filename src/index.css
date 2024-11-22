@@ -73,3 +73,18 @@ a{
   gap: 2rem;
   flex-wrap: wrap; 
 }
+
+.admin-btn{
+  background-color: #F28D00;;
+  color: #ffffff;
+  padding: 7px;
+  border-radius: 15px;
+  cursor: pointer;
+  border: 0;
+  transition: all 0.3s ease;
+}
+
+.admin-btn:hover{
+  background-color: red;
+  
+}

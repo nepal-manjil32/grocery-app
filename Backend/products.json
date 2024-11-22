@@ -44,6 +44,32 @@
           "price": 990
         }
       ]
+    },
+    {
+      "id": "123456",
+      "name": "Momo",
+      "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2018/1/10/0/DV2802_Nepali-Momo_s4x3.jpg.rend.hgtvcom.1280.1280.suffix/1515644556794.webp",
+      "company": "Kathmandu Fresh",
+      "category": "Food",
+      "sizes": [
+        {
+          "size": "41g",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "id": "12345",
+      "name": "Cake",
+      "image": "https://celebrationcakes.com.np/Media/HomeSlider/1.jpg",
+      "company": "Buddha Bakery",
+      "category": "bakery",
+      "sizes": [
+        {
+          "size": "41g",
+          "price": 250
+        }
+      ]
     }
   ]
 }
