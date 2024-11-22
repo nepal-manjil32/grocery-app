@@ -1,5 +1,25 @@
 {
   "products": [
-    
+    {
+      "id": "1",
+      "name": "Wai Wai Ready To Eat Veg Noodles",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/20004319_7-wai-wai-ready-to-eat-noodles-veg-masala.jpg",
+      "company": "Chaudhary Group",
+      "category": "snacks",
+      "sizes": [
+        {
+          "size": "70 g",
+          "price": 15
+        },
+        {
+          "size": "2 x 70 g Multipack",
+          "price": 30
+        },
+        {
+          "size": "12 x 70 g Multipack",
+          "price": 180
+        }
+      ]
+    }
   ]
 }
