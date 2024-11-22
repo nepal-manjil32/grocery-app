@@ -66,12 +66,11 @@ a{
 }
 
 .products{
-  margin-top: 3rem;
-  margin-left: 3rem;
+  margin: 3rem;
   padding: 10px;
   display: flex;
-  gap: 2rem;
-  flex-wrap: wrap; 
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .admin-btn{

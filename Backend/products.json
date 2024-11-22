@@ -20,6 +20,141 @@
           "price": 180
         }
       ]
+    },
+    {
+      "id": "2",
+      "name": "Dragon Fruit",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40008982_16-fresho-dragon-fruit.jpg",
+      "company": "fresho!",
+      "category": "vegetables",
+      "sizes": [
+        {
+          "size": "1 pc (300 g - 400 g)",
+          "price": 105
+        },
+        {
+          "size": "2 pcs (800 g - 950 g)",
+          "price": 220
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Apple",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40033819_34-fresho-apple-shimla.jpg",
+      "company": "fresho!",
+      "category": "vegetables",
+      "sizes": [
+        {
+          "size": " 4 pcs ( 510 g - 560 g)",
+          "price": 135
+        },
+        {
+          "size": "8 pcs (1 kg - 1.2 kg)",
+          "price": 285
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Banana",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/10000025_32-fresho-banana-robusta.jpg",
+      "company": "fresho!",
+      "category": "vegetables",
+      "sizes": [
+        {
+          "size": "1kg",
+          "price": 56
+        },
+        {
+          "size": "500 g",
+          "price": 27
+        },
+        {
+          "size": "3 pcs (450 g - 600 g)",
+          "price": 180
+        },
+        {
+          "size": "6 pcs (900 g - 1.1 kg)",
+          "price": 375
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Orange",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/20000909_19-fresho-orange-imported.jpg",
+      "company": "fresho!",
+      "category": "vegetables",
+      "sizes": [
+        {
+          "size": "4 pcs (400 g - 800 g)",
+          "price": 235
+        },
+        {
+          "size": "9 pcs (800 g - 1.2 gg)",
+          "price": 500
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Cucumber",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/10000102_19-fresho-cucumber.jpg",
+      "company": "fresho!",
+      "category": "vegetables",
+      "sizes": [
+        {
+          "size": "500 g",
+          "price": 30
+        },
+        {
+          "size": "1 kg",
+          "price": 60
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Potato",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/10000159_28-fresho-potato.jpg",
+      "company": "fresho!",
+      "category": "vegetables",
+      "sizes": [
+        {
+          "size": "500 g",
+          "price": 35
+        },
+        {
+          "size": "1 kg",
+          "price": 75
+        },
+        {
+          "size": "2 kg",
+          "price": 150
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Coriander",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/10000097_22-fresho-coriander-leaves.jpg",
+      "company": "fresho!",
+      "category": "vegetables",
+      "sizes": [
+        {
+          "size": "100 g",
+          "price": 11
+        },
+        {
+          "size": "250 g",
+          "price": 28
+        },
+        {
+          "size": "500 g",
+          "price": 55
+        }
+      ]
     }
   ]
 }
