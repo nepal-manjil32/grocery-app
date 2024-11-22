@@ -155,6 +155,470 @@
           "price": 55
         }
       ]
+    },
+    {
+      "id": "9",
+      "name": "Carrot",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/10000070_16-fresho-carrot-orange.jpg",
+      "company": "fresho!",
+      "category": "vegetables",
+      "sizes": [
+        {
+          "size": "250 g",
+          "price": 25
+        },
+        {
+          "size": "500 g",
+          "price": 50
+        },
+        {
+          "size": "1 kg",
+          "price": 100
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Spinach",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/20000979_13-fresho-palak-cleaned-without-roots.jpg",
+      "company": "fresho!",
+      "category": "vegetables",
+      "sizes": [
+        {
+          "size": "250 g",
+          "price": 15
+        },
+        {
+          "size": "500 g",
+          "price": 35
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Tomato",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/10000204-2_3-fresho-tomato-local.jpg",
+      "company": "fresho!",
+      "category": "vegetables",
+      "sizes": [
+        {
+          "size": "500 g",
+          "price": 25
+        },
+        {
+          "size": "1 kg",
+          "price": 50
+        },
+        {
+          "size": "2 kg",
+          "price": 100
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Pure Cow Ghee",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40288924_3-fresho-pure-cow-ghee.jpg",
+      "company": "fresho!",
+      "category": "grains",
+      "sizes": [
+        {
+          "size": "200 ml",
+          "price": 155
+        },
+        {
+          "size": "500 ml",
+          "price": 375
+        },
+        {
+          "size": "1 L",
+          "price": 720
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Refined Sunflower Oil",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/274145_14-fortune-sun-lite-sunflower-refined-oil.jpg",
+      "company": "Fortune",
+      "category": "grains",
+      "sizes": [
+        {
+          "size": "1 L",
+          "price": 149
+        },
+        {
+          "size": "2 L",
+          "price": 295
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Cow Ghee",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/257871_7-heritage-cow-ghee.jpg",
+      "company": "Heritage",
+      "category": "grains",
+      "sizes": [
+        {
+          "size": "500 ml",
+          "price": 320
+        },
+        {
+          "size": "1 L",
+          "price": 625
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Rice Bran & Sunflower Oil",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/147492_8-saffola-gold-refined-cooking-oil-blended-rice-bran-sunflower-oil-helps-keeps-heart-healthy.jpg",
+      "company": "Saffola",
+      "category": "grains",
+      "sizes": [
+        {
+          "size": "2 L",
+          "price": 365
+        },
+        {
+          "size": "3 L",
+          "price": 559
+        },
+        {
+          "size": "5 L",
+          "price": 1025
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Organic Chia Seeds",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40109382_6-bb-royal-organic-chia-seeds.jpg",
+      "company": "BB Royal",
+      "category": "grains",
+      "sizes": [
+        {
+          "size": "100 g",
+          "price": 50
+        },
+        {
+          "size": "250 g",
+          "price": 100
+        },
+        {
+          "size": "500 g",
+          "price": 250
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Organic Almond",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40092231_11-bb-royal-organic-almondbadam.jpg",
+      "company": "BB Royal",
+      "category": "grains",
+      "sizes": [
+        {
+          "size": "200 g",
+          "price": 250
+        },
+        {
+          "size": "500 g",
+          "price": 605
+        },
+        {
+          "size": "1 kg",
+          "price": 1200
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Cashews",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40111138_9-bb-royal-cashewkaju-split.jpg",
+      "company": "BB Royal",
+      "category": "grains",
+      "sizes": [
+        {
+          "size": "200 g",
+          "price": 260
+        },
+        {
+          "size": "500 g",
+          "price": 640
+        },
+        {
+          "size": "1 kg",
+          "price": 1250
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "Idli Rava",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40216181_1-vijay-idli-rava.jpg",
+      "company": "Vijay",
+      "category": "grains",
+      "sizes": [
+        {
+          "size": "500 g",
+          "price": 50
+        },
+        {
+          "size": "1 kg",
+          "price": 110
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Organic Whole Wheat",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40202316_5-aashirvaad-natures-super-foods-organic-atta.jpg",
+      "company": "Aashirvaad",
+      "category": "grains",
+      "sizes": [
+        {
+          "size": "1 kg ",
+          "price": 80
+        },
+        {
+          "size": "5 kg",
+          "price": 360
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "Rice Flour",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/10000420_9-bb-royal-rice-flour.jpg",
+      "company": "BB Royal",
+      "category": "grains",
+      "sizes": [
+        {
+          "size": "500 g",
+          "price": 30
+        },
+        {
+          "size": "1 kg",
+          "price": 65
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "name": "Maggi 2-min Instant Noodles",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/266160_24-maggi-masala-instant-noodles-vegetarian.jpg",
+      "company": "Maggi",
+      "category": "snacks",
+      "sizes": [
+        {
+          "size": "70 g Pouch ",
+          "price": 12
+        },
+        {
+          "size": "140 g Pouch",
+          "price": 25
+        },
+        {
+          "size": "280 g Pouch ",
+          "price": 55
+        },
+        {
+          "size": "560 g Pouch",
+          "price": 120
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Kerela Banana Chips - Orginal Style",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40221579_2-beyond-snack-kerala-banana-chips-original-style.jpg",
+      "company": "Beyond Snack",
+      "category": "snacks",
+      "sizes": [
+        {
+          "size": "75 g ",
+          "price": 55
+        },
+        {
+          "size": "75 g x 2",
+          "price": 105
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "Oreo Strawberry Creme Biscuit",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/327663_26-cadbury-oreo-creme-biscuit-strawberry.jpg",
+      "company": "Cadbury",
+      "category": "snacks",
+      "sizes": [
+        {
+          "size": "113.5 g",
+          "price": 30
+        },
+        {
+          "size": "113.5 g x 3",
+          "price": 80
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "Dark Fantasy Choco Biscuit",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40077104_13-sunfeast-dark-fantasy-biscuits-cookies-choco-fills.jpg",
+      "company": "Sunfeast",
+      "category": "snacks",
+      "sizes": [
+        {
+          "size": "275 g",
+          "price": 99
+        },
+        {
+          "size": "275 g x 2 ",
+          "price": 190
+        },
+        {
+          "size": "275 g x 3",
+          "price": 300
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "Aloo Bhujia",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/263128_3-haldirams-namkeen-aloo-bhujia.jpg",
+      "company": "Haldirams",
+      "category": "snacks",
+      "sizes": [
+        {
+          "size": "200 g",
+          "price": 50
+        },
+        {
+          "size": "400 g",
+          "price": 90
+        },
+        {
+          "size": "1 kg",
+          "price": 225
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "Cookies - Choco Chip",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40016293_2-unibic-cookies-chocolate-chip.jpg",
+      "company": "Unibic",
+      "category": "snacks",
+      "sizes": [
+        {
+          "size": "75 g ",
+          "price": 30
+        },
+        {
+          "size": "150 g",
+          "price": 50
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "Butter Popcorn",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40097848_2-act-ii-rte-butter-popcorn-pp.jpg",
+      "company": "ACT",
+      "category": "snacks",
+      "sizes": [
+        {
+          "size": "50 g",
+          "price": 25
+        },
+        {
+          "size": "50 g x 2",
+          "price": 50
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "Kurkure - Masala Munch",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/102761_18-kurkure-namkeen-masala-munch.jpg",
+      "company": "Kurkure",
+      "category": "snacks",
+      "sizes": [
+        {
+          "size": "40 g",
+          "price": 10
+        },
+        {
+          "size": "78 g",
+          "price": 20
+        },
+        {
+          "size": "78 g x 3",
+          "price": 65
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "Choco Pie",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/189909_10-lotte-choco-pie.jpg",
+      "company": "Lotte",
+      "category": "snacks",
+      "sizes": [
+        {
+          "size": "28 g (Pack of 6)",
+          "price": 80
+        },
+        {
+          "size": "28 g (Pack of 12)",
+          "price": 150
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "Pasteurized Butter",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/104860_8-amul-butter-pasteurised.jpg",
+      "company": "Amul",
+      "category": "bakery",
+      "sizes": [
+        {
+          "size": "100 g",
+          "price": 60
+        },
+        {
+          "size": "200 g",
+          "price": 130
+        },
+        {
+          "size": "500 g",
+          "price": 285
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "Pure Milk Cheese Slices",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/104808_9-amul-cheese-slices.jpg",
+      "company": "Amul",
+      "category": "bakery",
+      "sizes": [
+        {
+          "size": "200 g",
+          "price": 145
+        },
+        {
+          "size": "400 g",
+          "price": 275
+        },
+        {
+          "size": "750 g",
+          "price": 440
+        }
+      ]
     }
   ]
 }
