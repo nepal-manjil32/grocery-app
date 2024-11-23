@@ -62,65 +62,76 @@ const Add = () => {
   return (
     <div className="admin_container">
       <div className="add_items">
-        <p className="add_p">Add or Update Item</p>
+        <p className="add_p">ADD/UPDATE ITEM</p>
         <form onSubmit={handleData}>
           <div className="add_form">
-            <label>Item ID</label>
-            <input
-              type="text"
-              className="form-control"
-              value={id}
-              onChange={(e) => setId(e.target.value)}
-              required
-            />
-            <label>Item Name</label>
-            <input
-              type="text"
-              className="form-control"
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-            />
-            <label>Item Image</label>
-            <input
-              type="text"
-              className="form-control"
-              value={image}
-              onChange={(e) => setImage(e.target.value)}
-            />
-            <label>Item Company</label>
-            <input
-              type="text"
-              className="form-control"
-              value={company}
-              onChange={(e) => setCompany(e.target.value)}
-            />
-            <label>Item Category</label>
-            <input
-              type="text"
-              className="form-control"
-              value={category}
-              onChange={(e) => setCategory(e.target.value)}
-            />
-
-            <label>Item Sizes</label>
-            <div className="size-inputs">
+            <div className="input-fields">
+              <label>Item ID</label>
               <input
                 type="text"
-                className="form-control size-input"
-                placeholder="Size (e.g., 41 g)"
-                value={newSize}
-                onChange={(e) => setNewSize(e.target.value)}
+                className="form-control"
+                value={id}
+                onChange={(e) => setId(e.target.value)}
+                required
               />
+            </div>
+            <div className="input-fields">
+              <label>Item Name</label>
               <input
-                type="number"
-                className="form-control price-input"
-                placeholder="Price (e.g., 10)"
-                value={newPrice}
-                onChange={(e) => setNewPrice(e.target.value)}
+                type="text"
+                className="form-control"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
               />
-              <button type="button" className="add_size_btn" onClick={addSize}>
-                Add Size
-              </button>
+            </div>
+            <div className="input-fields">
+              <label>Item Image</label>
+              <input
+                type="text"
+                className="form-control"
+                value={image}
+                onChange={(e) => setImage(e.target.value)}
+              />
+            </div>
+            <div className="input-fields">
+              <label>Item Company</label>
+              <input
+                type="text"
+                className="form-control"
+                value={company}
+                onChange={(e) => setCompany(e.target.value)}
+              />
+            </div>
+            <div className="input-fields">
+              <label>Item Category</label>
+              <input
+                type="text"
+                className="form-control"
+                value={category}
+                onChange={(e) => setCategory(e.target.value)}
+              />
+            </div>
+            <div className="size-price-div">
+              <div className="size-price">
+                <label>Item Sizes</label>
+                <input
+                  type="text"
+                  className="form-control size-input"
+                  placeholder="Size (e.g., 41 g)"
+                  value={newSize}
+                  onChange={(e) => setNewSize(e.target.value)}
+                />
+                <input
+                  type="number"
+                  className="form-control price-input"
+                  placeholder="Price (e.g., 10)"
+                  value={newPrice}
+                  onChange={(e) => setNewPrice(e.target.value)}
+                />
+                <button type="button" className="add_size_btn" onClick={addSize}>
+                  Add Size
+                </button>
+              </div>
             </div>
             <ul>
               {sizes.map((size, index) => (
@@ -135,9 +146,9 @@ const Add = () => {
             </button>
           </div>
         </form>
+        <div className="delete_div">
+        <Link to={'/AppAfterLog/delete'} className='delete-btn'>Delete Products</Link>
       </div>
-      <div className="delete_div">
-        <Link to={'/AppAfterLog/delete'} className='admin-btn'>Delete Products</Link>
       </div>
     </div>
   );
