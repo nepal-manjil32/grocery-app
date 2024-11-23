@@ -789,6 +789,19 @@
           "price": 20
         }
       ]
+    },
+    {
+      "id": "123456",
+      "name": "Air Condom",
+      "image": "https://www.bigbasket.com/media/uploads/p/m/1232537_1-durex-air-condom.jpg?tr=w-154,q-80",
+      "company": "Durex",
+      "category": "Bakery",
+      "sizes": [
+        {
+          "size": "1",
+          "price": 200
+        }
+      ]
     }
   ]
 }
