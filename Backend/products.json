@@ -218,7 +218,7 @@
     {
       "id": "12",
       "name": "Pure Cow Ghee",
-      "image": "https://www.bigbasket.com/media/uploads/p/l/40288924_3-fresho-pure-cow-ghee.jpg",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40276380-2_3-fresho-pure-ghee-100-natural.jpg",
       "company": "fresho!",
       "category": "grains",
       "sizes": [
@@ -239,7 +239,7 @@
     {
       "id": "13",
       "name": "Refined Sunflower Oil",
-      "image": "https://www.bigbasket.com/media/uploads/p/l/274145_14-fortune-sun-lite-sunflower-refined-oil.jpg",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/274145-2_8-fortune-sun-lite-sunflower-refined-oil.jpg",
       "company": "Fortune",
       "category": "grains",
       "sizes": [
@@ -315,7 +315,7 @@
     {
       "id": "17",
       "name": "Organic Almond",
-      "image": "https://www.bigbasket.com/media/uploads/p/l/40092231_11-bb-royal-organic-almondbadam.jpg",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40125916-2_6-bb-royal-organic-almondbadam.jpg",
       "company": "BB Royal",
       "category": "grains",
       "sizes": [
@@ -336,7 +336,7 @@
     {
       "id": "18",
       "name": "Cashews",
-      "image": "https://www.bigbasket.com/media/uploads/p/l/40111138_9-bb-royal-cashewkaju-split.jpg",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40111138-2_7-bb-royal-cashewkaju-split.jpg",
       "company": "BB Royal",
       "category": "grains",
       "sizes": [
@@ -581,7 +581,7 @@
     {
       "id": "31",
       "name": "Pasteurized Butter",
-      "image": "https://www.bigbasket.com/media/uploads/p/l/104860_8-amul-butter-pasteurised.jpg",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/104864-2_2-amul-butter-pasteurised.jpg",
       "company": "Amul",
       "category": "bakery",
       "sizes": [
@@ -602,7 +602,7 @@
     {
       "id": "32",
       "name": "Pure Milk Cheese Slices",
-      "image": "https://www.bigbasket.com/media/uploads/p/l/104808_9-amul-cheese-slices.jpg",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/104808-2_5-amul-cheese-slices.jpg",
       "company": "Amul",
       "category": "bakery",
       "sizes": [
@@ -674,7 +674,7 @@
     {
       "id": "36",
       "name": "Paneer",
-      "image": "https://www.bigbasket.com/media/uploads/p/l/40096747_8-amul-malai-fresh-paneer.jpg",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40096747-2_8-amul-malai-fresh-paneer.jpg",
       "company": "Amul",
       "category": "bakery",
       "sizes": [
@@ -763,7 +763,7 @@
     {
       "id": "41",
       "name": "Camphor Tablets",
-      "image": "https://www.bigbasket.com/media/uploads/p/l/40316713_4-daivya-sparsh-camphor-tablets-pure.jpg",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40316713-3_4-daivya-sparsh-camphor-tablets-pure.jpg",
       "company": "Daivya Sparsh",
       "category": "household",
       "sizes": [
@@ -778,15 +778,537 @@
       ]
     },
     {
-      "id": "112888813489",
-      "name": "Condom",
-      "image": "data:image/jpeg;base64,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",
-      "company": "Durex",
-      "category": "bakery",
+      "id": "42",
+      "name": "Disinfectant Toilet Cleaner Liquid",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40258888_5-harpic-disinfectant-toilet-cleaner-liquid-jasmine-removes-dirt-stains.jpg",
+      "company": "Harpic",
+      "category": "household",
       "sizes": [
         {
-          "size": "41g",
+          "size": "1 L",
+          "price": 165
+        },
+        {
+          "size": "2 L",
+          "price": 325
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "name": "Quick Wash Detergent",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/266953-2_4-surf-excel-quick-wash-detergent-powder.jpg",
+      "company": "Surf Excel",
+      "category": "household",
+      "sizes": [
+        {
+          "size": "1 kg",
+          "price": 200
+        },
+        {
+          "size": "2 kg",
+          "price": 390
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "name": "Kitchen Tissue Paper",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40000675_4-origami-kitchen-towels-2-ply.jpg",
+      "company": "Origami",
+      "category": "household",
+      "sizes": [
+        {
+          "size": "1 pc (60 Pulls)",
+          "price": 90
+        },
+        {
+          "size": "2 pc (120 Pulls)",
+          "price": 185
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "name": "Dishwash Liquid Gel",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/307195_23-vim-dishwash-liquid-gel-lemon.jpg",
+      "company": "Vim",
+      "category": "household",
+      "sizes": [
+        {
+          "size": "500 ml",
+          "price": 120
+        },
+        {
+          "size": "1 L",
+          "price": 235
+        },
+        {
+          "size": "2 L",
+          "price": 450
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "name": "Antiseptic Liquid Gel",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/208003_11-dettol-antiseptic-disinfectant-liquid.jpg",
+      "company": "Dettol",
+      "category": "household",
+      "sizes": [
+        {
+          "size": "250 ml",
+          "price": 150
+        },
+        {
+          "size": "500 ml",
+          "price": 295
+        },
+        {
+          "size": "1 L",
+          "price": 530
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "name": "Fabric Whitener",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/100006662_7-rin-ala-fabric-whitener.jpg",
+      "company": "Rin ",
+      "category": "household",
+      "sizes": [
+        {
+          "size": "200 ml ",
+          "price": 45
+        },
+        {
+          "size": "500 ml",
+          "price": 100
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "name": "Top Load Liquid Detergent",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40077760_16-surf-excel-matic-liquid-top-load.jpg",
+      "company": "Surf Excel",
+      "category": "household",
+      "sizes": [
+        {
+          "size": "500 ml",
+          "price": 135
+        },
+        {
+          "size": "1 L",
+          "price": 275
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "name": "Paper Napkins",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40000648_4-origami-so-soft-plain-table-top-32-x-32-cm.jpg",
+      "company": "Origami",
+      "category": "household",
+      "sizes": [
+        {
+          "size": "1 pc (50 pulls)",
+          "price": 85
+        },
+        {
+          "size": "1 pc (100 pulls)",
+          "price": 190
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "name": "Chicken Breast",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/10000900_10-fresho-chicken-breast-boneless-antibiotic-residue-free-4-5-pcs.jpg",
+      "company": "fresho!",
+      "category": "meat",
+      "sizes": [
+        {
+          "size": "500 g",
+          "price": 200
+        },
+        {
+          "size": "1 kg",
+          "price": 500
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "name": "Eggs",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/150502_6-fresho-farm-eggs-table-tray-medium-antibiotic-residue-free.jpg",
+      "company": "fresho!",
+      "category": "meat",
+      "sizes": [
+        {
+          "size": "12 pcs",
+          "price": 95
+        },
+        {
+          "size": "30 pcs",
+          "price": 215
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "name": "Dry Fish Prawns",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40249719-2_2-fresho-dry-fish-prawns-big-ready-to-cook-for-curries-salads-sandwiches.jpg",
+      "company": "fresho!",
+      "category": "meat",
+      "sizes": [
+        {
+          "size": "80 g",
+          "price": 125
+        },
+        {
+          "size": "150 g",
+          "price": 140
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "name": "Mutton Boneless",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/20003676_4-fresho-mutton-boneless-antibiotic-residue-free-growth-hormone-free.jpg",
+      "company": "fresho!",
+      "category": "meat",
+      "sizes": [
+        {
+          "size": "500 g",
+          "price": 450
+        },
+        {
+          "size": "1 kg",
+          "price": 1000
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "name": "Chicken Drumstick",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/102592_8-fresho-chicken-drumstick-without-skin-antibiotic-residue-free.jpg",
+      "company": "fresho!",
+      "category": "meat",
+      "sizes": [
+        {
+          "size": "450 g",
+          "price": 200
+        },
+        {
+          "size": "1 kg",
+          "price": 350
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "name": "Frozen Prawns",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40110124-2_5-itc-master-chef-prawns-medium-peeled-deveined.jpg",
+      "company": "ITC",
+      "category": "meat",
+      "sizes": [
+        {
+          "size": "200 g",
+          "price": 215
+        },
+        {
+          "size": "500 g",
+          "price": 500
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "name": "Tuna Chunks",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40010023_5-ocean-secret-tuna-chunks-in-olive-oil.jpg",
+      "company": "Ocean Secret",
+      "category": "meat",
+      "sizes": [
+        {
+          "size": "200 g",
+          "price": 180
+        },
+        {
+          "size": "500 g",
+          "price": 440
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "name": "Drinking Water",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/265686-2_5-kinley-drinking-water-with-added-minerals.jpg",
+      "company": "Kinley",
+      "category": "beverages",
+      "sizes": [
+        {
+          "size": "1 L",
           "price": 20
+        },
+        {
+          "size": "2 L",
+          "price": 35
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "name": "Diet Coke",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/100401162_19-coca-cola-diet-coke-soft-drink.jpg",
+      "company": "Coca Cola",
+      "category": "beverages",
+      "sizes": [
+        {
+          "size": "300 ml ",
+          "price": 40
+        },
+        {
+          "size": "300 ml x 6",
+          "price": 240
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "name": "Instant Coffee Powder",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/249581_9-nescafe-classic-100-pure-instant-coffee.jpg",
+      "company": "Nestle",
+      "category": "beverages",
+      "sizes": [
+        {
+          "size": "200 g",
+          "price": 550
+        },
+        {
+          "size": "450 g",
+          "price": 790
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "name": "Honey Lemon Green Tea",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40077764_6-lipton-honey-lemon-green-tea.jpg",
+      "company": "Lipton",
+      "category": "beverages",
+      "sizes": [
+        {
+          "size": "35 g",
+          "price": 150
+        },
+        {
+          "size": "140 g",
+          "price": 400
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "name": " Aamras Mango Fruit Juice",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/1207000-2_4-paper-boat-aamras-mango-fruit-juice.jpg",
+      "company": "Paper Boat",
+      "category": "beverages",
+      "sizes": [
+        {
+          "size": "150 ml",
+          "price": 15
+        },
+        {
+          "size": "200 ml",
+          "price": 30
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "name": "Hot Chocolate Drink Powder",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/277866_16-cadbury-powder-mix-hot-chocolate-drink.jpg",
+      "company": "Cadbury",
+      "category": "beverages",
+      "sizes": [
+        {
+          "size": "200 gm ",
+          "price": 195
+        },
+        {
+          "size": "500 gm ",
+          "price": 480
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "name": "Sprite",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/276214_9-sprite-soft-drink-lime-flavoured.jpg",
+      "company": "Sprite",
+      "category": "beverages",
+      "sizes": [
+        {
+          "size": "300 ml ",
+          "price": 40
+        },
+        {
+          "size": "300 ml x 6",
+          "price": 235
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "name": "Energy Drink",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/100393567_11-red-bull-energy-drink.jpg",
+      "company": "Red Bull",
+      "category": "beverages",
+      "sizes": [
+        {
+          "size": "250 ml",
+          "price": 125
+        },
+        {
+          "size": "400 ml",
+          "price": 180
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "name": "Mixed Fruit Juice",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/229922_11-real-fruit-power-juice-mixed.jpg",
+      "company": "Real Juice",
+      "category": "beverages",
+      "sizes": [
+        {
+          "size": "200 ml",
+          "price": 20
+        },
+        {
+          "size": "1 L",
+          "price": 120
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "name": "Tea",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/137936-2_4-taj-mahal-tea.jpg",
+      "company": "Taj Mahal",
+      "category": "beverages",
+      "sizes": [
+        {
+          "size": "500 g",
+          "price": 350
+        },
+        {
+          "size": "1 kg",
+          "price": 760
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "name": "Incense Stick",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40316996-2_3-daivya-sparsh-lavender-agarbatti.jpg",
+      "company": "Divya Sparsh",
+      "category": "puja",
+      "sizes": [
+        {
+          "size": "36 pcs",
+          "price": 30
+        },
+        {
+          "size": "75 pcs",
+          "price": 55
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "name": "Mud Diya",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40329627_2-sbe-matki-moti-wax-mud-diya.jpg",
+      "company": "SBE",
+      "category": "puja",
+      "sizes": [
+        {
+          "size": "6 pcs ",
+          "price": 150
+        },
+        {
+          "size": "12 pcs",
+          "price": 310
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "name": "Puja Oil",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/20004106_1-varlakshmi-pooja-oil.jpg",
+      "company": "Varlakshmi",
+      "category": "puja",
+      "sizes": [
+        {
+          "size": "500 ml",
+          "price": 110
+        },
+        {
+          "size": "1 L",
+          "price": 210
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "name": "Match Box",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/30009877_2-aim-matches-box.jpg",
+      "company": "AIM",
+      "category": "puja",
+      "sizes": [
+        {
+          "size": "25 sticks",
+          "price": 10
+        },
+        {
+          "size": "50 sticks",
+          "price": 25
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "name": "Lamp Wicks",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40000307_5-om-bhakti-lamp-wicks-cotton-long-batti.jpg",
+      "company": "Om Bhakti",
+      "category": "puja",
+      "sizes": [
+        {
+          "size": "50 pcs",
+          "price": 20
+        },
+        {
+          "size": "100 pcs",
+          "price": 45
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "name": "Chicken Mince",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/10000906_9-fresho-chicken-mince-antibiotic-residue-free.jpg",
+      "company": "fresho!",
+      "category": "meat",
+      "sizes": [
+        {
+          "size": "250 g",
+          "price": 140
+        },
+        {
+          "size": "400 g",
+          "price": 470
         }
       ]
     }
