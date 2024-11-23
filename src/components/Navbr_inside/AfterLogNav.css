@@ -40,10 +40,12 @@ ul li a{
     gap: 2rem;
 }
 
-.search{
+.afterlogin-nav .search{
     border-radius: 1rem;
     border: none;
-    text-indent: 0.5rem;
+    text-align: start;
+    padding: 5px;
+    text-indent: 1rem;
 }
 .search:focus{
     outline: none;

@@ -41,7 +41,7 @@ const AfterLogNav = ({ onLogout }) => {
           </ul>
       </div> */}
       <ul>
-        <li><input type="text" placeholder="Search.." className='search' onChange={handleSearchChange}></input></li>
+        <li><input type="text" placeholder="Search..." className='search' onChange={handleSearchChange}></input></li>
         {/* <li><a href="/menu">Menu</a></li>
         <li><a href="/cart">Cart</a></li>
         <li><a href="/place-order">Place Order</a></li>
