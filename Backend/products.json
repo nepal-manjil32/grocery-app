@@ -1,0 +1,1317 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Wai Wai Ready to eat Veg Noodles",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/20004319_7-wai-wai-ready-to-eat-noodles-veg-masala.jpg",
+      "company": "Chaudhary Group",
+      "category": "snacks",
+      "sizes": [
+        {
+          "size": "70 g",
+          "price": 15
+        },
+        {
+          "size": "2 x 70 g Multipack",
+          "price": 30
+        },
+        {
+          "size": "12 x 70 g Multipack",
+          "price": 180
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Dragon Fruit",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40008982_16-fresho-dragon-fruit.jpg",
+      "company": "fresho!",
+      "category": "vegetables",
+      "sizes": [
+        {
+          "size": "1 pc (300 g - 400 g)",
+          "price": 105
+        },
+        {
+          "size": "2 pcs (800 g - 950 g)",
+          "price": 220
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Apple",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40033819_34-fresho-apple-shimla.jpg",
+      "company": "fresho!",
+      "category": "vegetables",
+      "sizes": [
+        {
+          "size": " 4 pcs ( 510 g - 560 g)",
+          "price": 135
+        },
+        {
+          "size": "8 pcs (1 kg - 1.2 kg)",
+          "price": 285
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Banana",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/10000025_32-fresho-banana-robusta.jpg",
+      "company": "fresho!",
+      "category": "vegetables",
+      "sizes": [
+        {
+          "size": "1kg",
+          "price": 56
+        },
+        {
+          "size": "500 g",
+          "price": 27
+        },
+        {
+          "size": "3 pcs (450 g - 600 g)",
+          "price": 180
+        },
+        {
+          "size": "6 pcs (900 g - 1.1 kg)",
+          "price": 375
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Orange",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/20000909_19-fresho-orange-imported.jpg",
+      "company": "fresho!",
+      "category": "vegetables",
+      "sizes": [
+        {
+          "size": "4 pcs (400 g - 800 g)",
+          "price": 235
+        },
+        {
+          "size": "9 pcs (800 g - 1.2 gg)",
+          "price": 500
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Cucumber",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/10000102_19-fresho-cucumber.jpg",
+      "company": "fresho!",
+      "category": "vegetables",
+      "sizes": [
+        {
+          "size": "500 g",
+          "price": 30
+        },
+        {
+          "size": "1 kg",
+          "price": 60
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Potato",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/10000159_28-fresho-potato.jpg",
+      "company": "fresho!",
+      "category": "vegetables",
+      "sizes": [
+        {
+          "size": "500 g",
+          "price": 35
+        },
+        {
+          "size": "1 kg",
+          "price": 75
+        },
+        {
+          "size": "2 kg",
+          "price": 150
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Coriander",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/10000097_22-fresho-coriander-leaves.jpg",
+      "company": "fresho!",
+      "category": "vegetables",
+      "sizes": [
+        {
+          "size": "100 g",
+          "price": 11
+        },
+        {
+          "size": "250 g",
+          "price": 28
+        },
+        {
+          "size": "500 g",
+          "price": 55
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Carrot",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/10000070_16-fresho-carrot-orange.jpg",
+      "company": "fresho!",
+      "category": "vegetables",
+      "sizes": [
+        {
+          "size": "250 g",
+          "price": 25
+        },
+        {
+          "size": "500 g",
+          "price": 50
+        },
+        {
+          "size": "1 kg",
+          "price": 100
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Spinach",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/20000979_13-fresho-palak-cleaned-without-roots.jpg",
+      "company": "fresho!",
+      "category": "vegetables",
+      "sizes": [
+        {
+          "size": "250 g",
+          "price": 15
+        },
+        {
+          "size": "500 g",
+          "price": 35
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Tomato",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/10000204-2_3-fresho-tomato-local.jpg",
+      "company": "fresho!",
+      "category": "vegetables",
+      "sizes": [
+        {
+          "size": "500 g",
+          "price": 25
+        },
+        {
+          "size": "1 kg",
+          "price": 50
+        },
+        {
+          "size": "2 kg",
+          "price": 100
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Pure Cow Ghee",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40276380-2_3-fresho-pure-ghee-100-natural.jpg",
+      "company": "fresho!",
+      "category": "grains",
+      "sizes": [
+        {
+          "size": "200 ml",
+          "price": 155
+        },
+        {
+          "size": "500 ml",
+          "price": 375
+        },
+        {
+          "size": "1 L",
+          "price": 720
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Refined Sunflower Oil",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/274145-2_8-fortune-sun-lite-sunflower-refined-oil.jpg",
+      "company": "Fortune",
+      "category": "grains",
+      "sizes": [
+        {
+          "size": "1 L",
+          "price": 149
+        },
+        {
+          "size": "2 L",
+          "price": 295
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Cow Ghee",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/257871_7-heritage-cow-ghee.jpg",
+      "company": "Heritage",
+      "category": "grains",
+      "sizes": [
+        {
+          "size": "500 ml",
+          "price": 320
+        },
+        {
+          "size": "1 L",
+          "price": 625
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Rice Bran & Sunflower Oil",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/147492_8-saffola-gold-refined-cooking-oil-blended-rice-bran-sunflower-oil-helps-keeps-heart-healthy.jpg",
+      "company": "Saffola",
+      "category": "grains",
+      "sizes": [
+        {
+          "size": "2 L",
+          "price": 365
+        },
+        {
+          "size": "3 L",
+          "price": 559
+        },
+        {
+          "size": "5 L",
+          "price": 1025
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Organic Chia Seeds",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40109382_6-bb-royal-organic-chia-seeds.jpg",
+      "company": "BB Royal",
+      "category": "grains",
+      "sizes": [
+        {
+          "size": "100 g",
+          "price": 50
+        },
+        {
+          "size": "250 g",
+          "price": 100
+        },
+        {
+          "size": "500 g",
+          "price": 250
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Organic Almond",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40125916-2_6-bb-royal-organic-almondbadam.jpg",
+      "company": "BB Royal",
+      "category": "grains",
+      "sizes": [
+        {
+          "size": "200 g",
+          "price": 250
+        },
+        {
+          "size": "500 g",
+          "price": 605
+        },
+        {
+          "size": "1 kg",
+          "price": 1200
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Cashews",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40111138-2_7-bb-royal-cashewkaju-split.jpg",
+      "company": "BB Royal",
+      "category": "grains",
+      "sizes": [
+        {
+          "size": "200 g",
+          "price": 260
+        },
+        {
+          "size": "500 g",
+          "price": 640
+        },
+        {
+          "size": "1 kg",
+          "price": 1250
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "Idli Rava",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40216181_1-vijay-idli-rava.jpg",
+      "company": "Vijay",
+      "category": "grains",
+      "sizes": [
+        {
+          "size": "500 g",
+          "price": 50
+        },
+        {
+          "size": "1 kg",
+          "price": 110
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Organic Whole Wheat",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40202316_5-aashirvaad-natures-super-foods-organic-atta.jpg",
+      "company": "Aashirvaad",
+      "category": "grains",
+      "sizes": [
+        {
+          "size": "1 kg ",
+          "price": 80
+        },
+        {
+          "size": "5 kg",
+          "price": 360
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "Rice Flour",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/10000420_9-bb-royal-rice-flour.jpg",
+      "company": "BB Royal",
+      "category": "grains",
+      "sizes": [
+        {
+          "size": "500 g",
+          "price": 30
+        },
+        {
+          "size": "1 kg",
+          "price": 65
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "name": "Maggi 2-min Instant Noodles",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/266160_24-maggi-masala-instant-noodles-vegetarian.jpg",
+      "company": "Maggi",
+      "category": "snacks",
+      "sizes": [
+        {
+          "size": "70 g Pouch ",
+          "price": 12
+        },
+        {
+          "size": "140 g Pouch",
+          "price": 25
+        },
+        {
+          "size": "280 g Pouch ",
+          "price": 55
+        },
+        {
+          "size": "560 g Pouch",
+          "price": 120
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Kerela Banana Chips - Original Style",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40221579_2-beyond-snack-kerala-banana-chips-original-style.jpg",
+      "company": "Beyond Snack",
+      "category": "snacks",
+      "sizes": [
+        {
+          "size": "75 g ",
+          "price": 55
+        },
+        {
+          "size": "75 g x 2",
+          "price": 105
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "Oreo Strawberry Creme Biscuit",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/327663_26-cadbury-oreo-creme-biscuit-strawberry.jpg",
+      "company": "Cadbury",
+      "category": "snacks",
+      "sizes": [
+        {
+          "size": "113.5 g",
+          "price": 30
+        },
+        {
+          "size": "113.5 g x 3",
+          "price": 80
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "Dark Fantasy Choco Biscuit",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40077104_13-sunfeast-dark-fantasy-biscuits-cookies-choco-fills.jpg",
+      "company": "Sunfeast",
+      "category": "snacks",
+      "sizes": [
+        {
+          "size": "275 g",
+          "price": 99
+        },
+        {
+          "size": "275 g x 2 ",
+          "price": 190
+        },
+        {
+          "size": "275 g x 3",
+          "price": 300
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "Aloo Bhujia",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/263128_3-haldirams-namkeen-aloo-bhujia.jpg",
+      "company": "Haldirams",
+      "category": "snacks",
+      "sizes": [
+        {
+          "size": "200 g",
+          "price": 50
+        },
+        {
+          "size": "400 g",
+          "price": 90
+        },
+        {
+          "size": "1 kg",
+          "price": 225
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "Cookies - Choco Chip",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40016293_2-unibic-cookies-chocolate-chip.jpg",
+      "company": "Unibic",
+      "category": "snacks",
+      "sizes": [
+        {
+          "size": "75 g ",
+          "price": 30
+        },
+        {
+          "size": "150 g",
+          "price": 50
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "Butter Popcorn",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40097848_2-act-ii-rte-butter-popcorn-pp.jpg",
+      "company": "ACT",
+      "category": "snacks",
+      "sizes": [
+        {
+          "size": "50 g",
+          "price": 25
+        },
+        {
+          "size": "50 g x 2",
+          "price": 50
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "Kurkure - Masala Munch",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/102761_18-kurkure-namkeen-masala-munch.jpg",
+      "company": "Kurkure",
+      "category": "snacks",
+      "sizes": [
+        {
+          "size": "40 g",
+          "price": 10
+        },
+        {
+          "size": "78 g",
+          "price": 20
+        },
+        {
+          "size": "78 g x 3",
+          "price": 65
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "Choco Pie",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/189909_10-lotte-choco-pie.jpg",
+      "company": "Lotte",
+      "category": "snacks",
+      "sizes": [
+        {
+          "size": "28 g (Pack of 6)",
+          "price": 80
+        },
+        {
+          "size": "28 g (Pack of 12)",
+          "price": 150
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "Pasteurized Butter",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/104864-2_2-amul-butter-pasteurised.jpg",
+      "company": "Amul",
+      "category": "bakery",
+      "sizes": [
+        {
+          "size": "100 g",
+          "price": 60
+        },
+        {
+          "size": "200 g",
+          "price": 130
+        },
+        {
+          "size": "500 g",
+          "price": 285
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "Pure Milk Cheese Slices",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/104808-2_5-amul-cheese-slices.jpg",
+      "company": "Amul",
+      "category": "bakery",
+      "sizes": [
+        {
+          "size": "200 g",
+          "price": 145
+        },
+        {
+          "size": "400 g",
+          "price": 275
+        },
+        {
+          "size": "750 g",
+          "price": 440
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "Fudge It Brownie",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40204406_1-britannia-chocolate-brownie.jpg",
+      "company": "Britannia",
+      "category": "bakery",
+      "sizes": [
+        {
+          "size": "40 g",
+          "price": 20
+        },
+        {
+          "size": "80",
+          "price": 35
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "English Tea Cake",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40320458_1-britannia-english-tea-cake.jpg",
+      "company": "Britinnia",
+      "category": "bakery",
+      "sizes": [
+        {
+          "size": "250 g",
+          "price": 140
+        },
+        {
+          "size": "250 g x 2",
+          "price": 280
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "Processed Toned Milk",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/20005539_3-heritage-toned-milk-special.jpg",
+      "company": "Heritage",
+      "category": "bakery",
+      "sizes": [
+        {
+          "size": "500 ml",
+          "price": 28
+        },
+        {
+          "size": "1 L ",
+          "price": 55
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "Paneer",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40096747-2_8-amul-malai-fresh-paneer.jpg",
+      "company": "Amul",
+      "category": "bakery",
+      "sizes": [
+        {
+          "size": "200 g",
+          "price": 90
+        },
+        {
+          "size": "1 kg",
+          "price": 440
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "Milk Powder",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/125546_8-nestle-everyday-dairy-whitener-milk-powder-for-tea.jpg",
+      "company": "Nestle",
+      "category": "bakery",
+      "sizes": [
+        {
+          "size": "200 g",
+          "price": 130
+        },
+        {
+          "size": "400 g",
+          "price": 250
+        },
+        {
+          "size": "1 kg",
+          "price": 610
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "name": "Butter Cookies",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40219511_4-tasties-butter-cookies-sugar-free.jpg",
+      "company": "Tasties",
+      "category": "bakery",
+      "sizes": [
+        {
+          "size": "75 g",
+          "price": 45
+        },
+        {
+          "size": "200 g",
+          "price": 120
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "name": "Biscuit - Fruit Jam",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40200456_2-bb-popular-bakery-biscuit-fruit-jam.jpg",
+      "company": "BB Popular",
+      "category": "bakery",
+      "sizes": [
+        {
+          "size": "200 g",
+          "price": 155
+        },
+        {
+          "size": "400 g",
+          "price": 315
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "name": " Glass & Surface Cleaner Liquid Spray",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/263819_19-colin-glass-cleaner-liquid-spray-bottle-cleans-mirror-car-home-appliances.jpg",
+      "company": "Colin",
+      "category": "household",
+      "sizes": [
+        {
+          "size": "500 ml",
+          "price": 110
+        },
+        {
+          "size": "500 ml x 3",
+          "price": 330
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "name": "Camphor Tablets",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40316713-3_4-daivya-sparsh-camphor-tablets-pure.jpg",
+      "company": "Daivya Sparsh",
+      "category": "household",
+      "sizes": [
+        {
+          "size": "100 g",
+          "price": 135
+        },
+        {
+          "size": "200 g ",
+          "price": 270
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "name": "Disinfectant Toilet Cleaner Liquid",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40258888_5-harpic-disinfectant-toilet-cleaner-liquid-jasmine-removes-dirt-stains.jpg",
+      "company": "Harpic",
+      "category": "household",
+      "sizes": [
+        {
+          "size": "1 L",
+          "price": 165
+        },
+        {
+          "size": "2 L",
+          "price": 325
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "name": "Quick Wash Detergent",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/266953-2_4-surf-excel-quick-wash-detergent-powder.jpg",
+      "company": "Surf Excel",
+      "category": "household",
+      "sizes": [
+        {
+          "size": "1 kg",
+          "price": 200
+        },
+        {
+          "size": "2 kg",
+          "price": 390
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "name": "Kitchen Tissue Paper",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40000675_4-origami-kitchen-towels-2-ply.jpg",
+      "company": "Origami",
+      "category": "household",
+      "sizes": [
+        {
+          "size": "1 pc (60 Pulls)",
+          "price": 90
+        },
+        {
+          "size": "2 pc (120 Pulls)",
+          "price": 185
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "name": "Dishwash Liquid Gel",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/307195_23-vim-dishwash-liquid-gel-lemon.jpg",
+      "company": "Vim",
+      "category": "household",
+      "sizes": [
+        {
+          "size": "500 ml",
+          "price": 120
+        },
+        {
+          "size": "1 L",
+          "price": 235
+        },
+        {
+          "size": "2 L",
+          "price": 450
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "name": "Antiseptic Liquid Gel",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/208003_11-dettol-antiseptic-disinfectant-liquid.jpg",
+      "company": "Dettol",
+      "category": "household",
+      "sizes": [
+        {
+          "size": "250 ml",
+          "price": 150
+        },
+        {
+          "size": "500 ml",
+          "price": 295
+        },
+        {
+          "size": "1 L",
+          "price": 530
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "name": "Fabric Whitener",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/100006662_7-rin-ala-fabric-whitener.jpg",
+      "company": "Rin ",
+      "category": "household",
+      "sizes": [
+        {
+          "size": "200 ml ",
+          "price": 45
+        },
+        {
+          "size": "500 ml",
+          "price": 100
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "name": "Top Load Liquid Detergent",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40077760_16-surf-excel-matic-liquid-top-load.jpg",
+      "company": "Surf Excel",
+      "category": "household",
+      "sizes": [
+        {
+          "size": "500 ml",
+          "price": 135
+        },
+        {
+          "size": "1 L",
+          "price": 275
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "name": "Paper Napkins",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40000648_4-origami-so-soft-plain-table-top-32-x-32-cm.jpg",
+      "company": "Origami",
+      "category": "household",
+      "sizes": [
+        {
+          "size": "1 pc (50 pulls)",
+          "price": 85
+        },
+        {
+          "size": "1 pc (100 pulls)",
+          "price": 190
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "name": "Chicken Breast",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/10000900_10-fresho-chicken-breast-boneless-antibiotic-residue-free-4-5-pcs.jpg",
+      "company": "fresho!",
+      "category": "meat",
+      "sizes": [
+        {
+          "size": "500 g",
+          "price": 200
+        },
+        {
+          "size": "1 kg",
+          "price": 500
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "name": "Eggs",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/150502_6-fresho-farm-eggs-table-tray-medium-antibiotic-residue-free.jpg",
+      "company": "fresho!",
+      "category": "meat",
+      "sizes": [
+        {
+          "size": "12 pcs",
+          "price": 95
+        },
+        {
+          "size": "30 pcs",
+          "price": 215
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "name": "Dry Fish Prawns",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40249719-2_2-fresho-dry-fish-prawns-big-ready-to-cook-for-curries-salads-sandwiches.jpg",
+      "company": "fresho!",
+      "category": "meat",
+      "sizes": [
+        {
+          "size": "80 g",
+          "price": 125
+        },
+        {
+          "size": "150 g",
+          "price": 140
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "name": "Mutton Boneless",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/20003676_4-fresho-mutton-boneless-antibiotic-residue-free-growth-hormone-free.jpg",
+      "company": "fresho!",
+      "category": "meat",
+      "sizes": [
+        {
+          "size": "500 g",
+          "price": 450
+        },
+        {
+          "size": "1 kg",
+          "price": 1000
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "name": "Chicken Drumstick",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/102592_8-fresho-chicken-drumstick-without-skin-antibiotic-residue-free.jpg",
+      "company": "fresho!",
+      "category": "meat",
+      "sizes": [
+        {
+          "size": "450 g",
+          "price": 200
+        },
+        {
+          "size": "1 kg",
+          "price": 350
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "name": "Frozen Prawns",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40110124-2_5-itc-master-chef-prawns-medium-peeled-deveined.jpg",
+      "company": "ITC",
+      "category": "meat",
+      "sizes": [
+        {
+          "size": "200 g",
+          "price": 215
+        },
+        {
+          "size": "500 g",
+          "price": 500
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "name": "Tuna Chunks",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40010023_5-ocean-secret-tuna-chunks-in-olive-oil.jpg",
+      "company": "Ocean Secret",
+      "category": "meat",
+      "sizes": [
+        {
+          "size": "200 g",
+          "price": 180
+        },
+        {
+          "size": "500 g",
+          "price": 440
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "name": "Drinking Water",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/265686-2_5-kinley-drinking-water-with-added-minerals.jpg",
+      "company": "Kinley",
+      "category": "beverages",
+      "sizes": [
+        {
+          "size": "1 L",
+          "price": 20
+        },
+        {
+          "size": "2 L",
+          "price": 35
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "name": "Diet Coke",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/100401162_19-coca-cola-diet-coke-soft-drink.jpg",
+      "company": "Coca Cola",
+      "category": "beverages",
+      "sizes": [
+        {
+          "size": "300 ml ",
+          "price": 40
+        },
+        {
+          "size": "300 ml x 6",
+          "price": 240
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "name": "Instant Coffee Powder",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/249581_9-nescafe-classic-100-pure-instant-coffee.jpg",
+      "company": "Nestle",
+      "category": "beverages",
+      "sizes": [
+        {
+          "size": "200 g",
+          "price": 550
+        },
+        {
+          "size": "450 g",
+          "price": 790
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "name": "Honey Lemon Green Tea",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40077764_6-lipton-honey-lemon-green-tea.jpg",
+      "company": "Lipton",
+      "category": "beverages",
+      "sizes": [
+        {
+          "size": "35 g",
+          "price": 150
+        },
+        {
+          "size": "140 g",
+          "price": 400
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "name": " Aamras Mango Fruit Juice",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/1207000-2_4-paper-boat-aamras-mango-fruit-juice.jpg",
+      "company": "Paper Boat",
+      "category": "beverages",
+      "sizes": [
+        {
+          "size": "150 ml",
+          "price": 15
+        },
+        {
+          "size": "200 ml",
+          "price": 30
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "name": "Hot Chocolate Drink Powder",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/277866_16-cadbury-powder-mix-hot-chocolate-drink.jpg",
+      "company": "Cadbury",
+      "category": "beverages",
+      "sizes": [
+        {
+          "size": "200 gm ",
+          "price": 195
+        },
+        {
+          "size": "500 gm ",
+          "price": 480
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "name": "Sprite",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/276214_9-sprite-soft-drink-lime-flavoured.jpg",
+      "company": "Sprite",
+      "category": "beverages",
+      "sizes": [
+        {
+          "size": "300 ml ",
+          "price": 40
+        },
+        {
+          "size": "300 ml x 6",
+          "price": 235
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "name": "Energy Drink",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/100393567_11-red-bull-energy-drink.jpg",
+      "company": "Red Bull",
+      "category": "beverages",
+      "sizes": [
+        {
+          "size": "250 ml",
+          "price": 125
+        },
+        {
+          "size": "400 ml",
+          "price": 180
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "name": "Mixed Fruit Juice",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/229922_11-real-fruit-power-juice-mixed.jpg",
+      "company": "Real Juice",
+      "category": "beverages",
+      "sizes": [
+        {
+          "size": "200 ml",
+          "price": 20
+        },
+        {
+          "size": "1 L",
+          "price": 120
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "name": "Tea",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/137936-2_4-taj-mahal-tea.jpg",
+      "company": "Taj Mahal",
+      "category": "beverages",
+      "sizes": [
+        {
+          "size": "500 g",
+          "price": 350
+        },
+        {
+          "size": "1 kg",
+          "price": 760
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "name": "Incense Stick",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40316996-2_3-daivya-sparsh-lavender-agarbatti.jpg",
+      "company": "Divya Sparsh",
+      "category": "puja",
+      "sizes": [
+        {
+          "size": "36 pcs",
+          "price": 30
+        },
+        {
+          "size": "75 pcs",
+          "price": 55
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "name": "Mud Diya",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40329627_2-sbe-matki-moti-wax-mud-diya.jpg",
+      "company": "SBE",
+      "category": "puja",
+      "sizes": [
+        {
+          "size": "6 pcs ",
+          "price": 150
+        },
+        {
+          "size": "12 pcs",
+          "price": 310
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "name": "Puja Oil",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/20004106_1-varlakshmi-pooja-oil.jpg",
+      "company": "Varlakshmi",
+      "category": "puja",
+      "sizes": [
+        {
+          "size": "500 ml",
+          "price": 110
+        },
+        {
+          "size": "1 L",
+          "price": 210
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "name": "Match Box",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/30009877_2-aim-matches-box.jpg",
+      "company": "AIM",
+      "category": "puja",
+      "sizes": [
+        {
+          "size": "25 sticks",
+          "price": 10
+        },
+        {
+          "size": "50 sticks",
+          "price": 25
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "name": "Lamp Wicks",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40000307_5-om-bhakti-lamp-wicks-cotton-long-batti.jpg",
+      "company": "Om Bhakti",
+      "category": "puja",
+      "sizes": [
+        {
+          "size": "50 pcs",
+          "price": 20
+        },
+        {
+          "size": "100 pcs",
+          "price": 45
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "name": "Chicken Mince",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/10000906_9-fresho-chicken-mince-antibiotic-residue-free.jpg",
+      "company": "fresho!",
+      "category": "meat",
+      "sizes": [
+        {
+          "size": "250 g",
+          "price": 140
+        },
+        {
+          "size": "400 g",
+          "price": 470
+        }
+      ]
+    }
+    
+  ]
+}
