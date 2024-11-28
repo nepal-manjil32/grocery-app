@@ -142,7 +142,7 @@ const Add = () => {
             </ul>
 
             <button type="submit" className="btn btn-primary add_item_btn">
-              Add Item
+              Add Item to Grocery
             </button>
           </div>
         </form>
