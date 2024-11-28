@@ -54,7 +54,7 @@ ul li a{
     display: flex;
     justify-content: center;
     align-items: center;
-    position:relative;
+    position: relative;
 }
 .p_cart{
     width: 25px;

@@ -27,7 +27,7 @@ const CartTotal = () => {
                     <p>{currency}{getCartAmount() === 0 ? 0 : getCartAmount() + delivery_fee}.00</p>
                 </div>
             </div>
-            <button className='pay-btn'>Pay</button>
+            <button className='pay-btn'><a href="../">Pay</a></button>
         </div>
     );
 };
