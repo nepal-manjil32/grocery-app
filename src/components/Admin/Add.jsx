@@ -147,7 +147,7 @@ const Add = () => {
           </div>
         </form>
         <div className="delete_div">
-        <Link to={'/AppAfterLog/delete'} className='delete-btn'>Delete Products</Link>
+        <Link to={'/AppAfterLog/delete'} className='delete-btn'>Go to Delete Products</Link>
       </div>
       </div>
     </div>
