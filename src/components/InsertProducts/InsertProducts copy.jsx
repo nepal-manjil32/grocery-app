@@ -13,7 +13,7 @@ import rice from '../../assets/rice.png';
 import search from '../../assets/search.png';
 
 const categoryLogos = {
-  vegetables: vegetables,
+  vegetables: vegetable,
   grains: rice,
   bakery: bakery,
   household: household,

@@ -23,6 +23,13 @@ A full-stack grocery application designed to make shopping convenient for users 
 └── package.json       # Project metadata and dependencies
 ```
 
+## Features
+- **Product Browsing**: Users can browse various grocery items categorized for easy navigation.
+- **Shopping Cart**: Add items to a cart and update quantities as desired.
+- **User Authentication** (planned): Secure user login and account management.
+- **Order History** (planned): Track past orders and reorder items easily.
+
+
 
 
 ## Future Development
