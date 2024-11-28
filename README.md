@@ -29,6 +29,9 @@ A full-stack grocery application designed to make shopping convenient for users 
 - **User Authentication** (planned): Secure user login and account management.
 - **Order History** (planned): Track past orders and reorder items easily.
 
+
+
+
 ## Future Development
 - **MongoDB Integration**: Adding MongoDB as the database to store user data, order history, and product details.
 - **Backend API Expansion**: Expanding backend functionality to handle more complex operations, such as payment processing and user authentication.
