@@ -1,6 +1,5 @@
 import React from 'react';
 import InsertProducts from '../components/InsertProducts/InsertProducts';
-import AfterLogNav from '../components/Navbr_inside/AfterLogNav';
 import Carousel from '../components/Carousel/Carousel';
 import BottomCarousel from '../components/BottomCarousel/BottomCarousel';
 import Footer from '../components/Footer/Footer';
