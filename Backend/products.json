@@ -1261,56 +1261,6 @@
         }
       ]
     },
-    {
-      "id": "70",
-      "name": "Match Box",
-      "image": "https://www.bigbasket.com/media/uploads/p/l/30009877_2-aim-matches-box.jpg",
-      "company": "AIM",
-      "category": "puja",
-      "sizes": [
-        {
-          "size": "25 sticks",
-          "price": 10
-        },
-        {
-          "size": "50 sticks",
-          "price": 25
-        }
-      ]
-    },
-    {
-      "id": "71",
-      "name": "Lamp Wicks",
-      "image": "https://www.bigbasket.com/media/uploads/p/l/40000307_5-om-bhakti-lamp-wicks-cotton-long-batti.jpg",
-      "company": "Om Bhakti",
-      "category": "puja",
-      "sizes": [
-        {
-          "size": "50 pcs",
-          "price": 20
-        },
-        {
-          "size": "100 pcs",
-          "price": 45
-        }
-      ]
-    },
-    {
-      "id": "72",
-      "name": "Chicken Mince",
-      "image": "https://www.bigbasket.com/media/uploads/p/l/10000906_9-fresho-chicken-mince-antibiotic-residue-free.jpg",
-      "company": "fresho!",
-      "category": "meat",
-      "sizes": [
-        {
-          "size": "250 g",
-          "price": 140
-        },
-        {
-          "size": "400 g",
-          "price": 470
-        }
-      ]
-    }
+    
   ]
 }
