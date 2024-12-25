@@ -5,8 +5,6 @@ A full-stack grocery application designed to make shopping convenient for users 
 ## Landing Page
 <img src='./src/assets/landing-page.png'>
 
-## After Login Dashboard
-<img src='./src/assets/after-login_1.png'>
 ## Tech Stack
 - **Frontend**: React
 - **Backend**: Express and Node.js
