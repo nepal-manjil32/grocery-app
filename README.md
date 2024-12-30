@@ -10,7 +10,7 @@ A full-stack grocery application designed to make shopping convenient for users 
 - **Backend**: Express and Node.js
 - **Database**: MongoDB (to be added in future development)
 
-## Project Structure
+<!-- ## Project Structure
 ```
 /grocery-app
 ├── public             # Static files (e.g., images, icons)
@@ -22,7 +22,7 @@ A full-stack grocery application designed to make shopping convenient for users 
 ├── server             # Backend server files (Express and Node.js)
 │   ├── routes         # API endpoints (e.g., product listings, cart management)
 │   └── server.js      # Server entry point
-└── package.json       # Project metadata and dependencies
+└── package.json       # Project metadata and dependencies -->
 ```
 
 ## Features
